@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TesseractOCRMethod/TesseractOCR.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <G8TesseractDelegate,
+                                              UIImagePickerControllerDelegate,
+                                              UINavigationControllerDelegate>
+{
+    //图片2进制路径
+    NSString* filePath;
+    
+    
+    
+}
 
 
 @end

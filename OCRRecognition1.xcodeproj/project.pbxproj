@@ -7,14 +7,185 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21F60C529386D61E820070CC /* libPods-OCRRecognition1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6B9C222357E9829545ABA1 /* libPods-OCRRecognition1.a */; };
+		B61AE0CD2085E4A40070337A /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61AE0CC2085E4A40070337A /* detailViewController.m */; };
+		B61AE0D420879AA20070337A /* KBTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B61AE0D120879AA10070337A /* KBTabbar.m */; };
+		B61AE0D520879AA20070337A /* KBTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61AE0D320879AA10070337A /* KBTabbarController.m */; };
+		B61AE0DE2087B5F80070337A /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61AE0DD2087B5F80070337A /* settingViewController.m */; };
+		B61AE11D20883EA80070337A /* QQ未选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E020883EA80070337A /* QQ未选中@2x.png */; };
+		B61AE11E20883EA80070337A /* QQ点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E120883EA80070337A /* QQ点击@2x.png */; };
+		B61AE11F20883EA80070337A /* 上门咨询@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E220883EA80070337A /* 上门咨询@2x.png */; };
+		B61AE12020883EA80070337A /* 个人中心@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E320883EA80070337A /* 个人中心@2x.png */; };
+		B61AE12120883EA80070337A /* 个人中心选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E420883EA80070337A /* 个人中心选中@2x.png */; };
+		B61AE12220883EA80070337A /* 个人信息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E520883EA80070337A /* 个人信息@2x.png */; };
+		B61AE12320883EA80070337A /* 健康档案@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E620883EA80070337A /* 健康档案@2x.png */; };
+		B61AE12420883EA80070337A /* 关注@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E720883EA80070337A /* 关注@2x.png */; };
+		B61AE12520883EA80070337A /* 区域代表图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E820883EA80070337A /* 区域代表图标@2x.png */; };
+		B61AE12620883EA80070337A /* 医院图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0E920883EA80070337A /* 医院图标@2x.png */; };
+		B61AE12720883EA80070337A /* 发现@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0EA20883EA80070337A /* 发现@2x.png */; };
+		B61AE12820883EA80070337A /* 发现选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0EB20883EA80070337A /* 发现选中@2x.png */; };
+		B61AE12920883EA80070337A /* 在线咨询@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0EC20883EA80070337A /* 在线咨询@2x.png */; };
+		B61AE12A20883EA80070337A /* 妇产科@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0ED20883EA80070337A /* 妇产科@2x.png */; };
+		B61AE12B20883EA80070337A /* 定位@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0EE20883EA80070337A /* 定位@2x.png */; };
+		B61AE12C20883EA80070337A /* 定位按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0EF20883EA80070337A /* 定位按钮@2x.png */; };
+		B61AE12D20883EA80070337A /* 微信支付@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F020883EA80070337A /* 微信支付@2x.png */; };
+		B61AE12E20883EA80070337A /* 微信未选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F120883EA80070337A /* 微信未选中@2x.png */; };
+		B61AE12F20883EA80070337A /* 微信点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F220883EA80070337A /* 微信点击@2x.png */; };
+		B61AE13020883EA80070337A /* 意见反馈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F320883EA80070337A /* 意见反馈@2x.png */; };
+		B61AE13120883EA80070337A /* 我的医生@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F420883EA80070337A /* 我的医生@2x.png */; };
+		B61AE13220883EA80070337A /* 我的积分@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F520883EA80070337A /* 我的积分@2x.png */; };
+		B61AE13320883EA80070337A /* 我的账户@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F620883EA80070337A /* 我的账户@2x.png */; };
+		B61AE13420883EA80070337A /* 报告单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F720883EA80070337A /* 报告单@2x.png */; };
+		B61AE13520883EA80070337A /* 搜索@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F820883EA80070337A /* 搜索@2x.png */; };
+		B61AE13620883EA80070337A /* 搜索灰色@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0F920883EA80070337A /* 搜索灰色@2x.png */; };
+		B61AE13720883EA80070337A /* 支付宝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0FA20883EA80070337A /* 支付宝@2x.png */; };
+		B61AE13820883EA80070337A /* 放大缩小@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0FB20883EA80070337A /* 放大缩小@2x.png */; };
+		B61AE13920883EA80070337A /* 明星认证@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0FC20883EA80070337A /* 明星认证@2x.png */; };
+		B61AE13A20883EA80070337A /* 星专家@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0FD20883EA80070337A /* 星专家@2x.png */; };
+		B61AE13B20883EA80070337A /* 星专家选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0FE20883EA80070337A /* 星专家选中@2x.png */; };
+		B61AE13C20883EA80070337A /* 星医生@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE0FF20883EA80070337A /* 星医生@2x.png */; };
+		B61AE13D20883EA80070337A /* 星医生选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10020883EA80070337A /* 星医生选中@2x.png */; };
+		B61AE13E20883EA80070337A /* 未选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10120883EA80070337A /* 未选中@2x.png */; };
+		B61AE13F20883EA80070337A /* 未选择@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10220883EA80070337A /* 未选择@2x.png */; };
+		B61AE14020883EA80070337A /* 活动已结束@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10320883EA80070337A /* 活动已结束@2x.png */; };
+		B61AE14120883EA80070337A /* 活动进行中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10420883EA80070337A /* 活动进行中@2x.png */; };
+		B61AE14220883EA80070337A /* 添加好友@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10520883EA80070337A /* 添加好友@2x.png */; };
+		B61AE14320883EA80070337A /* 添加好友QQ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10620883EA80070337A /* 添加好友QQ@2x.png */; };
+		B61AE14420883EA80070337A /* 添加好友微信@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10720883EA80070337A /* 添加好友微信@2x.png */; };
+		B61AE14520883EA80070337A /* 添加好友朋友圈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10820883EA80070337A /* 添加好友朋友圈@2x.png */; };
+		B61AE14620883EA80070337A /* 灰电话咨询@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10920883EA80070337A /* 灰电话咨询@2x.png */; };
+		B61AE14720883EA80070337A /* 电话咨询大图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10A20883EA80070337A /* 电话咨询大图@2x.png */; };
+		B61AE14820883EA80070337A /* 病例单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10B20883EA80070337A /* 病例单@2x.png */; };
+		B61AE14920883EA80070337A /* 病历单设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10C20883EA80070337A /* 病历单设置@2x.png */; };
+		B61AE14A20883EA80070337A /* 相机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10D20883EA80070337A /* 相机@2x.png */; };
+		B61AE14B20883EA80070337A /* 私人医生@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10E20883EA80070337A /* 私人医生@2x.png */; };
+		B61AE14C20883EA80070337A /* 私人医生大图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE10F20883EA80070337A /* 私人医生大图@2x.png */; };
+		B61AE14D20883EA80070337A /* 红包@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11020883EA80070337A /* 红包@2x.png */; };
+		B61AE14E20883EA80070337A /* 药店@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11120883EA80070337A /* 药店@2x.png */; };
+		B61AE14F20883EA80070337A /* 设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11220883EA80070337A /* 设置@2x.png */; };
+		B61AE15020883EA80070337A /* 返回按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11320883EA80070337A /* 返回按钮@2x.png */; };
+		B61AE15120883EA80070337A /* 进入提示@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11420883EA80070337A /* 进入提示@2x.png */; };
+		B61AE15220883EA80070337A /* 选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11520883EA80070337A /* 选中@2x.png */; };
+		B61AE15320883EA80070337A /* 选择@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11620883EA80070337A /* 选择@2x.png */; };
+		B61AE15420883EA80070337A /* 邀请好友@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11720883EA80070337A /* 邀请好友@2x.png */; };
+		B61AE15520883EA80070337A /* 银行卡支付@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11820883EA80070337A /* 银行卡支付@2x.png */; };
+		B61AE15620883EA80070337A /* 门诊预约@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11920883EA80070337A /* 门诊预约@2x.png */; };
+		B61AE15720883EA80070337A /* 门诊预约大图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11A20883EA80070337A /* 门诊预约大图@2x.png */; };
+		B61AE15820883EA80070337A /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11B20883EA80070337A /* 首页@2x.png */; };
+		B61AE15920883EA80070337A /* 首页选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE11C20883EA80070337A /* 首页选中@2x.png */; };
+		B61AE19820883EB10070337A /* QQ未选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE15B20883EB10070337A /* QQ未选中@3x.png */; };
+		B61AE19920883EB10070337A /* QQ点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE15C20883EB10070337A /* QQ点击@3x.png */; };
+		B61AE19A20883EB10070337A /* 上门咨询@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE15D20883EB10070337A /* 上门咨询@3x.png */; };
+		B61AE19B20883EB10070337A /* 个人中心@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE15E20883EB10070337A /* 个人中心@3x.png */; };
+		B61AE19C20883EB10070337A /* 个人中心选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE15F20883EB10070337A /* 个人中心选中@3x.png */; };
+		B61AE19D20883EB10070337A /* 个人信息@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16020883EB10070337A /* 个人信息@3x.png */; };
+		B61AE19E20883EB10070337A /* 健康档案@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16120883EB10070337A /* 健康档案@3x.png */; };
+		B61AE19F20883EB10070337A /* 关注@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16220883EB10070337A /* 关注@3x.png */; };
+		B61AE1A020883EB10070337A /* 区域代表图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16320883EB10070337A /* 区域代表图标@3x.png */; };
+		B61AE1A120883EB10070337A /* 医院图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16420883EB10070337A /* 医院图标@3x.png */; };
+		B61AE1A220883EB10070337A /* 发现@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16520883EB10070337A /* 发现@3x.png */; };
+		B61AE1A320883EB10070337A /* 发现选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16620883EB10070337A /* 发现选中@3x.png */; };
+		B61AE1A420883EB10070337A /* 在线咨询@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16720883EB10070337A /* 在线咨询@3x.png */; };
+		B61AE1A520883EB10070337A /* 妇产科@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16820883EB10070337A /* 妇产科@3x.png */; };
+		B61AE1A620883EB10070337A /* 定位@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16920883EB10070337A /* 定位@3x.png */; };
+		B61AE1A720883EB10070337A /* 定位按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16A20883EB10070337A /* 定位按钮@3x.png */; };
+		B61AE1A820883EB10070337A /* 微信支付@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16B20883EB10070337A /* 微信支付@3x.png */; };
+		B61AE1A920883EB10070337A /* 微信未选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16C20883EB10070337A /* 微信未选中@3x.png */; };
+		B61AE1AA20883EB10070337A /* 微信点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16D20883EB10070337A /* 微信点击@3x.png */; };
+		B61AE1AB20883EB10070337A /* 意见反馈@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16E20883EB10070337A /* 意见反馈@3x.png */; };
+		B61AE1AC20883EB10070337A /* 我的医生@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE16F20883EB10070337A /* 我的医生@3x.png */; };
+		B61AE1AD20883EB10070337A /* 我的积分@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17020883EB10070337A /* 我的积分@3x.png */; };
+		B61AE1AE20883EB10070337A /* 我的账户@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17120883EB10070337A /* 我的账户@3x.png */; };
+		B61AE1AF20883EB10070337A /* 报告单@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17220883EB10070337A /* 报告单@3x.png */; };
+		B61AE1B020883EB10070337A /* 搜索@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17320883EB10070337A /* 搜索@3x.png */; };
+		B61AE1B120883EB10070337A /* 搜索灰色@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17420883EB10070337A /* 搜索灰色@3x.png */; };
+		B61AE1B220883EB10070337A /* 支付宝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17520883EB10070337A /* 支付宝@3x.png */; };
+		B61AE1B320883EB10070337A /* 放大缩小@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17620883EB10070337A /* 放大缩小@3x.png */; };
+		B61AE1B420883EB10070337A /* 明星认证@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17720883EB10070337A /* 明星认证@3x.png */; };
+		B61AE1B520883EB10070337A /* 星专家@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17820883EB10070337A /* 星专家@3x.png */; };
+		B61AE1B620883EB10070337A /* 星专家选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17920883EB10070337A /* 星专家选中@3x.png */; };
+		B61AE1B720883EB10070337A /* 星医生@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17A20883EB10070337A /* 星医生@3x.png */; };
+		B61AE1B820883EB10070337A /* 星医生选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17B20883EB10070337A /* 星医生选中@3x.png */; };
+		B61AE1B920883EB10070337A /* 未选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17C20883EB10070337A /* 未选中@3x.png */; };
+		B61AE1BA20883EB10070337A /* 未选择@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17D20883EB10070337A /* 未选择@3x.png */; };
+		B61AE1BB20883EB10070337A /* 活动已结束@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17E20883EB10070337A /* 活动已结束@3x.png */; };
+		B61AE1BC20883EB10070337A /* 活动进行中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE17F20883EB10070337A /* 活动进行中@3x.png */; };
+		B61AE1BD20883EB10070337A /* 添加好友@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18020883EB10070337A /* 添加好友@3x.png */; };
+		B61AE1BE20883EB10070337A /* 添加好友QQ@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18120883EB10070337A /* 添加好友QQ@3x.png */; };
+		B61AE1BF20883EB10070337A /* 添加好友微信@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18220883EB10070337A /* 添加好友微信@3x.png */; };
+		B61AE1C020883EB10070337A /* 添加好友朋友圈@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18320883EB10070337A /* 添加好友朋友圈@3x.png */; };
+		B61AE1C120883EB10070337A /* 灰电话咨询@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18420883EB10070337A /* 灰电话咨询@3x.png */; };
+		B61AE1C220883EB10070337A /* 电话咨询大图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18520883EB10070337A /* 电话咨询大图@3x.png */; };
+		B61AE1C320883EB10070337A /* 病例单@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18620883EB10070337A /* 病例单@3x.png */; };
+		B61AE1C420883EB10070337A /* 病历单设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18720883EB10070337A /* 病历单设置@3x.png */; };
+		B61AE1C520883EB10070337A /* 相机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18820883EB10070337A /* 相机@3x.png */; };
+		B61AE1C620883EB10070337A /* 私人医生@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18920883EB10070337A /* 私人医生@3x.png */; };
+		B61AE1C720883EB10070337A /* 私人医生大图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18A20883EB10070337A /* 私人医生大图@3x.png */; };
+		B61AE1C820883EB10070337A /* 红包@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18B20883EB10070337A /* 红包@3x.png */; };
+		B61AE1C920883EB10070337A /* 药店@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18C20883EB10070337A /* 药店@3x.png */; };
+		B61AE1CA20883EB10070337A /* 设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18D20883EB10070337A /* 设置@3x.png */; };
+		B61AE1CB20883EB10070337A /* 返回按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18E20883EB10070337A /* 返回按钮@3x.png */; };
+		B61AE1CC20883EB10070337A /* 进入提示@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE18F20883EB10070337A /* 进入提示@3x.png */; };
+		B61AE1CD20883EB10070337A /* 选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE19020883EB10070337A /* 选中@3x.png */; };
+		B61AE1CE20883EB10070337A /* 选择@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE19120883EB10070337A /* 选择@3x.png */; };
+		B61AE1CF20883EB10070337A /* 邀请好友@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE19220883EB10070337A /* 邀请好友@3x.png */; };
+		B61AE1D020883EB10070337A /* 银行卡支付@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE19320883EB10070337A /* 银行卡支付@3x.png */; };
+		B61AE1D120883EB10070337A /* 门诊预约@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE19420883EB10070337A /* 门诊预约@3x.png */; };
+		B61AE1D220883EB10070337A /* 门诊预约大图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE19520883EB10070337A /* 门诊预约大图@3x.png */; };
+		B61AE1D320883EB10070337A /* 首页@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE19620883EB10070337A /* 首页@3x.png */; };
+		B61AE1D420883EB10070337A /* 首页选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61AE19720883EB10070337A /* 首页选中@3x.png */; };
+		B61AE1D82088430C0070337A /* SuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61AE1D62088430C0070337A /* SuggestionViewController.m */; };
+		B61AE1DB2088436D0070337A /* InstalledTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61AE1D92088436D0070337A /* InstalledTableViewController.m */; };
+		B642596E207CC0E6000163F1 /* coin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B642596D207CC0E6000163F1 /* coin.jpg */; };
+		B642597A207CD922000163F1 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = B6425976207CD921000163F1 /* NSDictionary+Log.m */; };
+		B642597B207CD922000163F1 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = B6425977207CD922000163F1 /* NSArray+Log.m */; };
+		B642597C207CD922000163F1 /* NSString+unicode.m in Sources */ = {isa = PBXBuildFile; fileRef = B6425979207CD922000163F1 /* NSString+unicode.m */; };
+		B642597F20849F48000163F1 /* historyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B642597E20849F48000163F1 /* historyTableViewController.m */; };
+		B64259812084A645000163F1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B64259802084A645000163F1 /* libsqlite3.0.tbd */; };
+		B64259832084A660000163F1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B64259822084A660000163F1 /* libsqlite3.tbd */; };
+		B64323FD218B2B14003E76B0 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64323F6218B2B14003E76B0 /* ForgetViewController.m */; };
+		B64323FE218B2B14003E76B0 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64323F8218B2B14003E76B0 /* RegisterViewController.m */; };
+		B64323FF218B2B14003E76B0 /* userAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64323FA218B2B14003E76B0 /* userAgreementViewController.m */; };
+		B6432400218B2B14003E76B0 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64323FC218B2B14003E76B0 /* WelcomeViewController.m */; };
 		B64859E8202C17F70093E0E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B64859E7202C17F70093E0E2 /* AppDelegate.m */; };
 		B64859EB202C17F70093E0E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64859EA202C17F70093E0E2 /* ViewController.m */; };
 		B64859EE202C17F70093E0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64859EC202C17F70093E0E2 /* Main.storyboard */; };
-		B64859F0202C17F70093E0E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64859EF202C17F70093E0E2 /* Assets.xcassets */; };
 		B64859F3202C17F70093E0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64859F1202C17F70093E0E2 /* LaunchScreen.storyboard */; };
 		B64859F6202C17F70093E0E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64859F5202C17F70093E0E2 /* main.m */; };
 		B6485A00202C17F70093E0E2 /* OCRRecognition1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B64859FF202C17F70093E0E2 /* OCRRecognition1Tests.m */; };
 		B6485A0B202C17F70093E0E2 /* OCRRecognition1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6485A0A202C17F70093E0E2 /* OCRRecognition1UITests.m */; };
+		B667C08D202C34AA0028BD75 /* G8RecognitionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B667C082202C34AA0028BD75 /* G8RecognitionOperation.m */; };
+		B667C08E202C34AA0028BD75 /* G8RecognizedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B667C084202C34AA0028BD75 /* G8RecognizedBlock.m */; };
+		B667C08F202C34AA0028BD75 /* G8Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = B667C086202C34AA0028BD75 /* G8Tesseract.mm */; };
+		B667C090202C34AA0028BD75 /* G8TesseractParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B667C089202C34AA0028BD75 /* G8TesseractParameters.m */; };
+		B667C091202C34AA0028BD75 /* UIImage+G8Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = B667C08C202C34AA0028BD75 /* UIImage+G8Filters.m */; };
+		B667C1E3202C351A0028BD75 /* build_dependencies.sh in Resources */ = {isa = PBXBuildFile; fileRef = B667C093202C35190028BD75 /* build_dependencies.sh */; };
+		B66A3776207B5415000C7E04 /* AipBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66A3774207B5414000C7E04 /* AipBase.framework */; };
+		B66A3777207B5415000C7E04 /* AipBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B66A3774207B5414000C7E04 /* AipBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B66A3778207B5415000C7E04 /* AipOcrSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66A3775207B5415000C7E04 /* AipOcrSdk.framework */; };
+		B66A3779207B5415000C7E04 /* AipOcrSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B66A3775207B5415000C7E04 /* AipOcrSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B66A377C207B5514000C7E04 /* IdcardQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66A377B207B5514000C7E04 /* IdcardQuality.framework */; };
+		B66A377D207B5514000C7E04 /* IdcardQuality.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B66A377B207B5514000C7E04 /* IdcardQuality.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B686A62D2181ACF100D423B6 /* STImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A6162181ACEF00D423B6 /* STImageController.m */; };
+		B686A62E2181ACF100D423B6 /* STListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A6182181ACEF00D423B6 /* STListController.m */; };
+		B686A62F2181ACF100D423B6 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A61A2181ACEF00D423B6 /* STViewController.m */; };
+		B686A6302181ACF100D423B6 /* onepiece_kiudai.png in Resources */ = {isa = PBXBuildFile; fileRef = B686A61B2181ACF000D423B6 /* onepiece_kiudai.png */; };
+		B686A6312181ACF100D423B6 /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = B686A61D2181ACF000D423B6 /* github.png */; };
+		B686A6322181ACF100D423B6 /* STRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A6202181ACF000D423B6 /* STRefreshHeader.m */; };
+		B686A6332181ACF100D423B6 /* UIScrollView+STRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A6222181ACF000D423B6 /* UIScrollView+STRefresh.m */; };
+		B686A6342181ACF100D423B6 /* STTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A6252181ACF100D423B6 /* STTransitions.m */; };
+		B686A6352181ACF100D423B6 /* CustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A6282181ACF100D423B6 /* CustomCollectionView.m */; };
+		B686A6362181ACF100D423B6 /* CustomSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A62A2181ACF100D423B6 /* CustomSegmentControl.m */; };
+		B686A6372181ACF100D423B6 /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B686A62C2181ACF100D423B6 /* CustomTableView.m */; };
+		B688B4F4202C3C4A0093E90B /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B688B4F2202C3C4A0093E90B /* liblept.a */; };
+		B688B4F5202C3C4A0093E90B /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B688B4F3202C3C4A0093E90B /* libtesseract_all.a */; };
+		B688B4F8202C42130093E90B /* letter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B688B4F7202C42130093E90B /* letter.jpg */; };
+		B688B51F202C4CB10093E90B /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = B688B51E202C4CB10093E90B /* tessdata */; };
+		B6A720C6218F009E00484586 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = B6A720C3218F009D00484586 /* 1.json */; };
+		B6A720CA218F037B00484586 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = B6A720C8218F037A00484586 /* 3.json */; };
+		B6A720CB218F037B00484586 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = B6A720C9218F037B00484586 /* 2.json */; };
+		B6AA5F27218849790098D922 /* newsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA5F26218849790098D922 /* newsDetailViewController.m */; };
+		B6F90D8020BE85BC00B370DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F90D7F20BE85BC00B370DF /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +205,183 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B66A377A207B5415000C7E04 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B66A3777207B5415000C7E04 /* AipBase.framework in Embed Frameworks */,
+				B66A3779207B5415000C7E04 /* AipOcrSdk.framework in Embed Frameworks */,
+				B66A377D207B5514000C7E04 /* IdcardQuality.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7D0DDC29E85E1A380C000358 /* Pods-OCRRecognition1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRRecognition1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCRRecognition1/Pods-OCRRecognition1.debug.xcconfig"; sourceTree = "<group>"; };
+		B61AE0CB2085E4A30070337A /* detailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		B61AE0CC2085E4A40070337A /* detailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		B61AE0D020879AA10070337A /* KBTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTabbar.h; sourceTree = "<group>"; };
+		B61AE0D120879AA10070337A /* KBTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTabbar.m; sourceTree = "<group>"; };
+		B61AE0D220879AA10070337A /* KBTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTabbarController.h; sourceTree = "<group>"; };
+		B61AE0D320879AA10070337A /* KBTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTabbarController.m; sourceTree = "<group>"; };
+		B61AE0DC2087B5F80070337A /* settingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		B61AE0DD2087B5F80070337A /* settingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
+		B61AE0E020883EA80070337A /* QQ未选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ未选中@2x.png"; sourceTree = "<group>"; };
+		B61AE0E120883EA80070337A /* QQ点击@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ点击@2x.png"; sourceTree = "<group>"; };
+		B61AE0E220883EA80070337A /* 上门咨询@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上门咨询@2x.png"; sourceTree = "<group>"; };
+		B61AE0E320883EA80070337A /* 个人中心@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心@2x.png"; sourceTree = "<group>"; };
+		B61AE0E420883EA80070337A /* 个人中心选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心选中@2x.png"; sourceTree = "<group>"; };
+		B61AE0E520883EA80070337A /* 个人信息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人信息@2x.png"; sourceTree = "<group>"; };
+		B61AE0E620883EA80070337A /* 健康档案@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康档案@2x.png"; sourceTree = "<group>"; };
+		B61AE0E720883EA80070337A /* 关注@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关注@2x.png"; sourceTree = "<group>"; };
+		B61AE0E820883EA80070337A /* 区域代表图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域代表图标@2x.png"; sourceTree = "<group>"; };
+		B61AE0E920883EA80070337A /* 医院图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "医院图标@2x.png"; sourceTree = "<group>"; };
+		B61AE0EA20883EA80070337A /* 发现@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现@2x.png"; sourceTree = "<group>"; };
+		B61AE0EB20883EA80070337A /* 发现选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现选中@2x.png"; sourceTree = "<group>"; };
+		B61AE0EC20883EA80070337A /* 在线咨询@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "在线咨询@2x.png"; sourceTree = "<group>"; };
+		B61AE0ED20883EA80070337A /* 妇产科@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "妇产科@2x.png"; sourceTree = "<group>"; };
+		B61AE0EE20883EA80070337A /* 定位@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位@2x.png"; sourceTree = "<group>"; };
+		B61AE0EF20883EA80070337A /* 定位按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位按钮@2x.png"; sourceTree = "<group>"; };
+		B61AE0F020883EA80070337A /* 微信支付@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信支付@2x.png"; sourceTree = "<group>"; };
+		B61AE0F120883EA80070337A /* 微信未选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信未选中@2x.png"; sourceTree = "<group>"; };
+		B61AE0F220883EA80070337A /* 微信点击@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信点击@2x.png"; sourceTree = "<group>"; };
+		B61AE0F320883EA80070337A /* 意见反馈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "意见反馈@2x.png"; sourceTree = "<group>"; };
+		B61AE0F420883EA80070337A /* 我的医生@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的医生@2x.png"; sourceTree = "<group>"; };
+		B61AE0F520883EA80070337A /* 我的积分@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的积分@2x.png"; sourceTree = "<group>"; };
+		B61AE0F620883EA80070337A /* 我的账户@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的账户@2x.png"; sourceTree = "<group>"; };
+		B61AE0F720883EA80070337A /* 报告单@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "报告单@2x.png"; sourceTree = "<group>"; };
+		B61AE0F820883EA80070337A /* 搜索@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索@2x.png"; sourceTree = "<group>"; };
+		B61AE0F920883EA80070337A /* 搜索灰色@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索灰色@2x.png"; sourceTree = "<group>"; };
+		B61AE0FA20883EA80070337A /* 支付宝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付宝@2x.png"; sourceTree = "<group>"; };
+		B61AE0FB20883EA80070337A /* 放大缩小@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大缩小@2x.png"; sourceTree = "<group>"; };
+		B61AE0FC20883EA80070337A /* 明星认证@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "明星认证@2x.png"; sourceTree = "<group>"; };
+		B61AE0FD20883EA80070337A /* 星专家@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星专家@2x.png"; sourceTree = "<group>"; };
+		B61AE0FE20883EA80070337A /* 星专家选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星专家选中@2x.png"; sourceTree = "<group>"; };
+		B61AE0FF20883EA80070337A /* 星医生@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星医生@2x.png"; sourceTree = "<group>"; };
+		B61AE10020883EA80070337A /* 星医生选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星医生选中@2x.png"; sourceTree = "<group>"; };
+		B61AE10120883EA80070337A /* 未选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中@2x.png"; sourceTree = "<group>"; };
+		B61AE10220883EA80070337A /* 未选择@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选择@2x.png"; sourceTree = "<group>"; };
+		B61AE10320883EA80070337A /* 活动已结束@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动已结束@2x.png"; sourceTree = "<group>"; };
+		B61AE10420883EA80070337A /* 活动进行中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动进行中@2x.png"; sourceTree = "<group>"; };
+		B61AE10520883EA80070337A /* 添加好友@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加好友@2x.png"; sourceTree = "<group>"; };
+		B61AE10620883EA80070337A /* 添加好友QQ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加好友QQ@2x.png"; sourceTree = "<group>"; };
+		B61AE10720883EA80070337A /* 添加好友微信@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加好友微信@2x.png"; sourceTree = "<group>"; };
+		B61AE10820883EA80070337A /* 添加好友朋友圈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加好友朋友圈@2x.png"; sourceTree = "<group>"; };
+		B61AE10920883EA80070337A /* 灰电话咨询@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灰电话咨询@2x.png"; sourceTree = "<group>"; };
+		B61AE10A20883EA80070337A /* 电话咨询大图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电话咨询大图@2x.png"; sourceTree = "<group>"; };
+		B61AE10B20883EA80070337A /* 病例单@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "病例单@2x.png"; sourceTree = "<group>"; };
+		B61AE10C20883EA80070337A /* 病历单设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "病历单设置@2x.png"; sourceTree = "<group>"; };
+		B61AE10D20883EA80070337A /* 相机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@2x.png"; sourceTree = "<group>"; };
+		B61AE10E20883EA80070337A /* 私人医生@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "私人医生@2x.png"; sourceTree = "<group>"; };
+		B61AE10F20883EA80070337A /* 私人医生大图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "私人医生大图@2x.png"; sourceTree = "<group>"; };
+		B61AE11020883EA80070337A /* 红包@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红包@2x.png"; sourceTree = "<group>"; };
+		B61AE11120883EA80070337A /* 药店@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药店@2x.png"; sourceTree = "<group>"; };
+		B61AE11220883EA80070337A /* 设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@2x.png"; sourceTree = "<group>"; };
+		B61AE11320883EA80070337A /* 返回按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮@2x.png"; sourceTree = "<group>"; };
+		B61AE11420883EA80070337A /* 进入提示@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入提示@2x.png"; sourceTree = "<group>"; };
+		B61AE11520883EA80070337A /* 选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中@2x.png"; sourceTree = "<group>"; };
+		B61AE11620883EA80070337A /* 选择@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择@2x.png"; sourceTree = "<group>"; };
+		B61AE11720883EA80070337A /* 邀请好友@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请好友@2x.png"; sourceTree = "<group>"; };
+		B61AE11820883EA80070337A /* 银行卡支付@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "银行卡支付@2x.png"; sourceTree = "<group>"; };
+		B61AE11920883EA80070337A /* 门诊预约@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门诊预约@2x.png"; sourceTree = "<group>"; };
+		B61AE11A20883EA80070337A /* 门诊预约大图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门诊预约大图@2x.png"; sourceTree = "<group>"; };
+		B61AE11B20883EA80070337A /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
+		B61AE11C20883EA80070337A /* 首页选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页选中@2x.png"; sourceTree = "<group>"; };
+		B61AE15B20883EB10070337A /* QQ未选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ未选中@3x.png"; sourceTree = "<group>"; };
+		B61AE15C20883EB10070337A /* QQ点击@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ点击@3x.png"; sourceTree = "<group>"; };
+		B61AE15D20883EB10070337A /* 上门咨询@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上门咨询@3x.png"; sourceTree = "<group>"; };
+		B61AE15E20883EB10070337A /* 个人中心@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心@3x.png"; sourceTree = "<group>"; };
+		B61AE15F20883EB10070337A /* 个人中心选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心选中@3x.png"; sourceTree = "<group>"; };
+		B61AE16020883EB10070337A /* 个人信息@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人信息@3x.png"; sourceTree = "<group>"; };
+		B61AE16120883EB10070337A /* 健康档案@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康档案@3x.png"; sourceTree = "<group>"; };
+		B61AE16220883EB10070337A /* 关注@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关注@3x.png"; sourceTree = "<group>"; };
+		B61AE16320883EB10070337A /* 区域代表图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域代表图标@3x.png"; sourceTree = "<group>"; };
+		B61AE16420883EB10070337A /* 医院图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "医院图标@3x.png"; sourceTree = "<group>"; };
+		B61AE16520883EB10070337A /* 发现@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现@3x.png"; sourceTree = "<group>"; };
+		B61AE16620883EB10070337A /* 发现选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现选中@3x.png"; sourceTree = "<group>"; };
+		B61AE16720883EB10070337A /* 在线咨询@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "在线咨询@3x.png"; sourceTree = "<group>"; };
+		B61AE16820883EB10070337A /* 妇产科@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "妇产科@3x.png"; sourceTree = "<group>"; };
+		B61AE16920883EB10070337A /* 定位@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位@3x.png"; sourceTree = "<group>"; };
+		B61AE16A20883EB10070337A /* 定位按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位按钮@3x.png"; sourceTree = "<group>"; };
+		B61AE16B20883EB10070337A /* 微信支付@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信支付@3x.png"; sourceTree = "<group>"; };
+		B61AE16C20883EB10070337A /* 微信未选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信未选中@3x.png"; sourceTree = "<group>"; };
+		B61AE16D20883EB10070337A /* 微信点击@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信点击@3x.png"; sourceTree = "<group>"; };
+		B61AE16E20883EB10070337A /* 意见反馈@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "意见反馈@3x.png"; sourceTree = "<group>"; };
+		B61AE16F20883EB10070337A /* 我的医生@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的医生@3x.png"; sourceTree = "<group>"; };
+		B61AE17020883EB10070337A /* 我的积分@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的积分@3x.png"; sourceTree = "<group>"; };
+		B61AE17120883EB10070337A /* 我的账户@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的账户@3x.png"; sourceTree = "<group>"; };
+		B61AE17220883EB10070337A /* 报告单@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "报告单@3x.png"; sourceTree = "<group>"; };
+		B61AE17320883EB10070337A /* 搜索@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索@3x.png"; sourceTree = "<group>"; };
+		B61AE17420883EB10070337A /* 搜索灰色@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索灰色@3x.png"; sourceTree = "<group>"; };
+		B61AE17520883EB10070337A /* 支付宝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付宝@3x.png"; sourceTree = "<group>"; };
+		B61AE17620883EB10070337A /* 放大缩小@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大缩小@3x.png"; sourceTree = "<group>"; };
+		B61AE17720883EB10070337A /* 明星认证@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "明星认证@3x.png"; sourceTree = "<group>"; };
+		B61AE17820883EB10070337A /* 星专家@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星专家@3x.png"; sourceTree = "<group>"; };
+		B61AE17920883EB10070337A /* 星专家选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星专家选中@3x.png"; sourceTree = "<group>"; };
+		B61AE17A20883EB10070337A /* 星医生@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星医生@3x.png"; sourceTree = "<group>"; };
+		B61AE17B20883EB10070337A /* 星医生选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星医生选中@3x.png"; sourceTree = "<group>"; };
+		B61AE17C20883EB10070337A /* 未选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中@3x.png"; sourceTree = "<group>"; };
+		B61AE17D20883EB10070337A /* 未选择@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选择@3x.png"; sourceTree = "<group>"; };
+		B61AE17E20883EB10070337A /* 活动已结束@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动已结束@3x.png"; sourceTree = "<group>"; };
+		B61AE17F20883EB10070337A /* 活动进行中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动进行中@3x.png"; sourceTree = "<group>"; };
+		B61AE18020883EB10070337A /* 添加好友@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加好友@3x.png"; sourceTree = "<group>"; };
+		B61AE18120883EB10070337A /* 添加好友QQ@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加好友QQ@3x.png"; sourceTree = "<group>"; };
+		B61AE18220883EB10070337A /* 添加好友微信@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加好友微信@3x.png"; sourceTree = "<group>"; };
+		B61AE18320883EB10070337A /* 添加好友朋友圈@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加好友朋友圈@3x.png"; sourceTree = "<group>"; };
+		B61AE18420883EB10070337A /* 灰电话咨询@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灰电话咨询@3x.png"; sourceTree = "<group>"; };
+		B61AE18520883EB10070337A /* 电话咨询大图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电话咨询大图@3x.png"; sourceTree = "<group>"; };
+		B61AE18620883EB10070337A /* 病例单@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "病例单@3x.png"; sourceTree = "<group>"; };
+		B61AE18720883EB10070337A /* 病历单设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "病历单设置@3x.png"; sourceTree = "<group>"; };
+		B61AE18820883EB10070337A /* 相机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@3x.png"; sourceTree = "<group>"; };
+		B61AE18920883EB10070337A /* 私人医生@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "私人医生@3x.png"; sourceTree = "<group>"; };
+		B61AE18A20883EB10070337A /* 私人医生大图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "私人医生大图@3x.png"; sourceTree = "<group>"; };
+		B61AE18B20883EB10070337A /* 红包@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红包@3x.png"; sourceTree = "<group>"; };
+		B61AE18C20883EB10070337A /* 药店@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药店@3x.png"; sourceTree = "<group>"; };
+		B61AE18D20883EB10070337A /* 设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@3x.png"; sourceTree = "<group>"; };
+		B61AE18E20883EB10070337A /* 返回按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮@3x.png"; sourceTree = "<group>"; };
+		B61AE18F20883EB10070337A /* 进入提示@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入提示@3x.png"; sourceTree = "<group>"; };
+		B61AE19020883EB10070337A /* 选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中@3x.png"; sourceTree = "<group>"; };
+		B61AE19120883EB10070337A /* 选择@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择@3x.png"; sourceTree = "<group>"; };
+		B61AE19220883EB10070337A /* 邀请好友@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请好友@3x.png"; sourceTree = "<group>"; };
+		B61AE19320883EB10070337A /* 银行卡支付@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "银行卡支付@3x.png"; sourceTree = "<group>"; };
+		B61AE19420883EB10070337A /* 门诊预约@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门诊预约@3x.png"; sourceTree = "<group>"; };
+		B61AE19520883EB10070337A /* 门诊预约大图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门诊预约大图@3x.png"; sourceTree = "<group>"; };
+		B61AE19620883EB10070337A /* 首页@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@3x.png"; sourceTree = "<group>"; };
+		B61AE19720883EB10070337A /* 首页选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页选中@3x.png"; sourceTree = "<group>"; };
+		B61AE1D62088430C0070337A /* SuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionViewController.m; sourceTree = "<group>"; };
+		B61AE1D72088430C0070337A /* SuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionViewController.h; sourceTree = "<group>"; };
+		B61AE1D92088436D0070337A /* InstalledTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstalledTableViewController.m; sourceTree = "<group>"; };
+		B61AE1DA2088436D0070337A /* InstalledTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstalledTableViewController.h; sourceTree = "<group>"; };
+		B642596D207CC0E6000163F1 /* coin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin.jpg; sourceTree = "<group>"; };
+		B6425974207CD920000163F1 /* NSString+unicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+unicode.h"; sourceTree = "<group>"; };
+		B6425975207CD921000163F1 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		B6425976207CD921000163F1 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		B6425977207CD922000163F1 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		B6425978207CD922000163F1 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		B6425979207CD922000163F1 /* NSString+unicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+unicode.m"; sourceTree = "<group>"; };
+		B642597D20849F48000163F1 /* historyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = historyTableViewController.h; sourceTree = "<group>"; };
+		B642597E20849F48000163F1 /* historyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = historyTableViewController.m; sourceTree = "<group>"; };
+		B64259802084A645000163F1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B64259822084A660000163F1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B64323F5218B2B14003E76B0 /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
+		B64323F6218B2B14003E76B0 /* ForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		B64323F7218B2B14003E76B0 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		B64323F8218B2B14003E76B0 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		B64323F9218B2B14003E76B0 /* userAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userAgreementViewController.h; sourceTree = "<group>"; };
+		B64323FA218B2B14003E76B0 /* userAgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userAgreementViewController.m; sourceTree = "<group>"; };
+		B64323FB218B2B14003E76B0 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		B64323FC218B2B14003E76B0 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		B64859E3202C17F70093E0E2 /* OCRRecognition1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRRecognition1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64859E6202C17F70093E0E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B64859E7202C17F70093E0E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B64859E9202C17F70093E0E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B64859EA202C17F70093E0E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B64859ED202C17F70093E0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B64859EF202C17F70093E0E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B64859F2202C17F70093E0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B64859F4202C17F70093E0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B64859F5202C17F70093E0E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +391,387 @@
 		B6485A06202C17F70093E0E2 /* OCRRecognition1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRRecognition1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6485A0A202C17F70093E0E2 /* OCRRecognition1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRRecognition1UITests.m; sourceTree = "<group>"; };
 		B6485A0C202C17F70093E0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B667C080202C34AA0028BD75 /* G8Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G8Constants.h; sourceTree = "<group>"; };
+		B667C081202C34AA0028BD75 /* G8RecognitionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G8RecognitionOperation.h; sourceTree = "<group>"; };
+		B667C082202C34AA0028BD75 /* G8RecognitionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G8RecognitionOperation.m; sourceTree = "<group>"; };
+		B667C083202C34AA0028BD75 /* G8RecognizedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G8RecognizedBlock.h; sourceTree = "<group>"; };
+		B667C084202C34AA0028BD75 /* G8RecognizedBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G8RecognizedBlock.m; sourceTree = "<group>"; };
+		B667C085202C34AA0028BD75 /* G8Tesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G8Tesseract.h; sourceTree = "<group>"; };
+		B667C086202C34AA0028BD75 /* G8Tesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = G8Tesseract.mm; sourceTree = "<group>"; };
+		B667C087202C34AA0028BD75 /* G8TesseractDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G8TesseractDelegate.h; sourceTree = "<group>"; };
+		B667C088202C34AA0028BD75 /* G8TesseractParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G8TesseractParameters.h; sourceTree = "<group>"; };
+		B667C089202C34AA0028BD75 /* G8TesseractParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G8TesseractParameters.m; sourceTree = "<group>"; };
+		B667C08A202C34AA0028BD75 /* TesseractOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesseractOCR.h; sourceTree = "<group>"; };
+		B667C08B202C34AA0028BD75 /* UIImage+G8Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+G8Filters.h"; sourceTree = "<group>"; };
+		B667C08C202C34AA0028BD75 /* UIImage+G8Filters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+G8Filters.m"; sourceTree = "<group>"; };
+		B667C093202C35190028BD75 /* build_dependencies.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_dependencies.sh; sourceTree = "<group>"; };
+		B667C096202C35190028BD75 /* allheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		B667C097202C35190028BD75 /* alltypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alltypes.h; sourceTree = "<group>"; };
+		B667C098202C35190028BD75 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		B667C099202C35190028BD75 /* arrayaccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrayaccess.h; sourceTree = "<group>"; };
+		B667C09A202C35190028BD75 /* bbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbuffer.h; sourceTree = "<group>"; };
+		B667C09B202C35190028BD75 /* bilateral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bilateral.h; sourceTree = "<group>"; };
+		B667C09C202C35190028BD75 /* bmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmf.h; sourceTree = "<group>"; };
+		B667C09D202C35190028BD75 /* bmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmp.h; sourceTree = "<group>"; };
+		B667C09E202C35190028BD75 /* ccbord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccbord.h; sourceTree = "<group>"; };
+		B667C09F202C35190028BD75 /* config_auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_auto.h; sourceTree = "<group>"; };
+		B667C0A0202C35190028BD75 /* dewarp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dewarp.h; sourceTree = "<group>"; };
+		B667C0A1202C35190028BD75 /* endianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endianness.h; sourceTree = "<group>"; };
+		B667C0A2202C35190028BD75 /* environ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = environ.h; sourceTree = "<group>"; };
+		B667C0A3202C35190028BD75 /* freetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freetype.h; sourceTree = "<group>"; };
+		B667C0A4202C35190028BD75 /* gplot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gplot.h; sourceTree = "<group>"; };
+		B667C0A5202C35190028BD75 /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
+		B667C0A6202C35190028BD75 /* imageio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageio.h; sourceTree = "<group>"; };
+		B667C0A7202C35190028BD75 /* jbclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jbclass.h; sourceTree = "<group>"; };
+		B667C0A8202C35190028BD75 /* leptwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leptwin.h; sourceTree = "<group>"; };
+		B667C0A9202C35190028BD75 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		B667C0AA202C35190028BD75 /* morph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = morph.h; sourceTree = "<group>"; };
+		B667C0AB202C35190028BD75 /* pix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pix.h; sourceTree = "<group>"; };
+		B667C0AC202C35190028BD75 /* ptra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptra.h; sourceTree = "<group>"; };
+		B667C0AD202C35190028BD75 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		B667C0AE202C35190028BD75 /* readbarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readbarcode.h; sourceTree = "<group>"; };
+		B667C0AF202C35190028BD75 /* recog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recog.h; sourceTree = "<group>"; };
+		B667C0B0202C35190028BD75 /* regutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regutils.h; sourceTree = "<group>"; };
+		B667C0B1202C35190028BD75 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		B667C0B2202C35190028BD75 /* sudoku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sudoku.h; sourceTree = "<group>"; };
+		B667C0B3202C35190028BD75 /* watershed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = watershed.h; sourceTree = "<group>"; };
+		B667C0B5202C35190028BD75 /* adaptive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adaptive.h; sourceTree = "<group>"; };
+		B667C0B6202C35190028BD75 /* alignedblob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alignedblob.h; sourceTree = "<group>"; };
+		B667C0B7202C35190028BD75 /* altlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = altlist.h; sourceTree = "<group>"; };
+		B667C0B8202C35190028BD75 /* ambigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ambigs.h; sourceTree = "<group>"; };
+		B667C0B9202C35190028BD75 /* apitypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apitypes.h; sourceTree = "<group>"; };
+		B667C0BA202C35190028BD75 /* associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = associate.h; sourceTree = "<group>"; };
+		B667C0BB202C35190028BD75 /* baseapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseapi.h; sourceTree = "<group>"; };
+		B667C0BC202C35190028BD75 /* basedir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basedir.h; sourceTree = "<group>"; };
+		B667C0BD202C35190028BD75 /* baselinedetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baselinedetect.h; sourceTree = "<group>"; };
+		B667C0BE202C35190028BD75 /* bbgrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbgrid.h; sourceTree = "<group>"; };
+		B667C0BF202C35190028BD75 /* beam_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beam_search.h; sourceTree = "<group>"; };
+		B667C0C0202C35190028BD75 /* bits16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bits16.h; sourceTree = "<group>"; };
+		B667C0C1202C35190028BD75 /* bitvec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitvec.h; sourceTree = "<group>"; };
+		B667C0C2202C35190028BD75 /* bitvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitvector.h; sourceTree = "<group>"; };
+		B667C0C3202C35190028BD75 /* blamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blamer.h; sourceTree = "<group>"; };
+		B667C0C4202C35190028BD75 /* blckerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blckerr.h; sourceTree = "<group>"; };
+		B667C0C5202C35190028BD75 /* blkocc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blkocc.h; sourceTree = "<group>"; };
+		B667C0C6202C35190028BD75 /* blobbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobbox.h; sourceTree = "<group>"; };
+		B667C0C7202C35190028BD75 /* blobclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobclass.h; sourceTree = "<group>"; };
+		B667C0C8202C35190028BD75 /* blobgrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobgrid.h; sourceTree = "<group>"; };
+		B667C0C9202C35190028BD75 /* blobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobs.h; sourceTree = "<group>"; };
+		B667C0CA202C35190028BD75 /* blread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blread.h; sourceTree = "<group>"; };
+		B667C0CB202C35190028BD75 /* bmp_8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmp_8.h; sourceTree = "<group>"; };
+		B667C0CC202C35190028BD75 /* boxchar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boxchar.h; sourceTree = "<group>"; };
+		B667C0CD202C35190028BD75 /* boxread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boxread.h; sourceTree = "<group>"; };
+		B667C0CE202C35190028BD75 /* boxword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boxword.h; sourceTree = "<group>"; };
+		B667C0CF202C35190028BD75 /* cached_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cached_file.h; sourceTree = "<group>"; };
+		B667C0D0202C35190028BD75 /* callcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = callcpp.h; sourceTree = "<group>"; };
+		B667C0D1202C35190028BD75 /* capi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capi.h; sourceTree = "<group>"; };
+		B667C0D2202C35190028BD75 /* ccnontextdetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccnontextdetect.h; sourceTree = "<group>"; };
+		B667C0D3202C35190028BD75 /* ccstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccstruct.h; sourceTree = "<group>"; };
+		B667C0D4202C35190028BD75 /* ccutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccutil.h; sourceTree = "<group>"; };
+		B667C0D5202C35190028BD75 /* char_altlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_altlist.h; sourceTree = "<group>"; };
+		B667C0D6202C35190028BD75 /* char_bigrams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_bigrams.h; sourceTree = "<group>"; };
+		B667C0D7202C35190028BD75 /* char_samp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_samp.h; sourceTree = "<group>"; };
+		B667C0D8202C35190028BD75 /* char_samp_enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_samp_enum.h; sourceTree = "<group>"; };
+		B667C0D9202C35190028BD75 /* char_samp_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_samp_set.h; sourceTree = "<group>"; };
+		B667C0DA202C35190028BD75 /* char_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char_set.h; sourceTree = "<group>"; };
+		B667C0DB202C35190028BD75 /* chop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chop.h; sourceTree = "<group>"; };
+		B667C0DC202C35190028BD75 /* chopper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chopper.h; sourceTree = "<group>"; };
+		B667C0DD202C35190028BD75 /* cjkpitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cjkpitch.h; sourceTree = "<group>"; };
+		B667C0DE202C35190028BD75 /* classifier_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classifier_base.h; sourceTree = "<group>"; };
+		B667C0DF202C35190028BD75 /* classifier_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classifier_factory.h; sourceTree = "<group>"; };
+		B667C0E0202C35190028BD75 /* classify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classify.h; sourceTree = "<group>"; };
+		B667C0E1202C35190028BD75 /* clst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clst.h; sourceTree = "<group>"; };
+		B667C0E2202C35190028BD75 /* cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cluster.h; sourceTree = "<group>"; };
+		B667C0E3202C35190028BD75 /* clusttool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clusttool.h; sourceTree = "<group>"; };
+		B667C0E4202C35190028BD75 /* colfind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colfind.h; sourceTree = "<group>"; };
+		B667C0E5202C35190028BD75 /* colpartition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colpartition.h; sourceTree = "<group>"; };
+		B667C0E6202C35190028BD75 /* colpartitiongrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colpartitiongrid.h; sourceTree = "<group>"; };
+		B667C0E7202C35190028BD75 /* colpartitionset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colpartitionset.h; sourceTree = "<group>"; };
+		B667C0E8202C35190028BD75 /* commandlineflags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commandlineflags.h; sourceTree = "<group>"; };
+		B667C0E9202C35190028BD75 /* commontraining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commontraining.h; sourceTree = "<group>"; };
+		B667C0EA202C35190028BD75 /* con_comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = con_comp.h; sourceTree = "<group>"; };
+		B667C0EB202C35190028BD75 /* config_auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_auto.h; sourceTree = "<group>"; };
+		B667C0EC202C35190028BD75 /* const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = const.h; sourceTree = "<group>"; };
+		B667C0ED202C35190028BD75 /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
+		B667C0EE202C35190028BD75 /* conv_net_classifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conv_net_classifier.h; sourceTree = "<group>"; };
+		B667C0EF202C35190028BD75 /* coutln.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coutln.h; sourceTree = "<group>"; };
+		B667C0F0202C35190028BD75 /* crakedge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crakedge.h; sourceTree = "<group>"; };
+		B667C0F1202C35190028BD75 /* cube_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube_const.h; sourceTree = "<group>"; };
+		B667C0F2202C35190028BD75 /* cube_line_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube_line_object.h; sourceTree = "<group>"; };
+		B667C0F3202C35190028BD75 /* cube_line_segmenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube_line_segmenter.h; sourceTree = "<group>"; };
+		B667C0F4202C35190028BD75 /* cube_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube_object.h; sourceTree = "<group>"; };
+		B667C0F5202C35190028BD75 /* cube_reco_context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube_reco_context.h; sourceTree = "<group>"; };
+		B667C0F6202C35190028BD75 /* cube_search_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube_search_object.h; sourceTree = "<group>"; };
+		B667C0F7202C35190028BD75 /* cube_tuning_params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube_tuning_params.h; sourceTree = "<group>"; };
+		B667C0F8202C35190028BD75 /* cube_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube_utils.h; sourceTree = "<group>"; };
+		B667C0F9202C35190028BD75 /* cubeclassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cubeclassifier.h; sourceTree = "<group>"; };
+		B667C0FA202C35190028BD75 /* cutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cutil.h; sourceTree = "<group>"; };
+		B667C0FB202C35190028BD75 /* cutil_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cutil_class.h; sourceTree = "<group>"; };
+		B667C0FC202C35190028BD75 /* cutoffs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cutoffs.h; sourceTree = "<group>"; };
+		B667C0FD202C35190028BD75 /* danerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = danerror.h; sourceTree = "<group>"; };
+		B667C0FE202C35190028BD75 /* dawg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dawg.h; sourceTree = "<group>"; };
+		B667C0FF202C35190028BD75 /* dawg_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dawg_cache.h; sourceTree = "<group>"; };
+		B667C100202C35190028BD75 /* degradeimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = degradeimage.h; sourceTree = "<group>"; };
+		B667C101202C35190028BD75 /* detlinefit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detlinefit.h; sourceTree = "<group>"; };
+		B667C102202C35190028BD75 /* devanagari_processing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = devanagari_processing.h; sourceTree = "<group>"; };
+		B667C103202C35190028BD75 /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		B667C104202C35190028BD75 /* docqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = docqual.h; sourceTree = "<group>"; };
+		B667C105202C35190028BD75 /* doubleptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doubleptr.h; sourceTree = "<group>"; };
+		B667C106202C35190028BD75 /* dppoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dppoint.h; sourceTree = "<group>"; };
+		B667C107202C35190028BD75 /* drawedg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawedg.h; sourceTree = "<group>"; };
+		B667C108202C35190028BD75 /* drawfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawfx.h; sourceTree = "<group>"; };
+		B667C109202C35190028BD75 /* drawtord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawtord.h; sourceTree = "<group>"; };
+		B667C10A202C35190028BD75 /* edgblob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = edgblob.h; sourceTree = "<group>"; };
+		B667C10B202C35190028BD75 /* edgloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = edgloop.h; sourceTree = "<group>"; };
+		B667C10C202C35190028BD75 /* efio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = efio.h; sourceTree = "<group>"; };
+		B667C10D202C35190028BD75 /* elst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elst.h; sourceTree = "<group>"; };
+		B667C10E202C35190028BD75 /* elst2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elst2.h; sourceTree = "<group>"; };
+		B667C10F202C35190028BD75 /* emalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emalloc.h; sourceTree = "<group>"; };
+		B667C110202C35190028BD75 /* equationdetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = equationdetect.h; sourceTree = "<group>"; };
+		B667C111202C35190028BD75 /* equationdetectbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = equationdetectbase.h; sourceTree = "<group>"; };
+		B667C112202C35190028BD75 /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errcode.h; sourceTree = "<group>"; };
+		B667C113202C35190028BD75 /* errorcounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errorcounter.h; sourceTree = "<group>"; };
+		B667C114202C35190028BD75 /* extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extern.h; sourceTree = "<group>"; };
+		B667C115202C35190028BD75 /* extract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extract.h; sourceTree = "<group>"; };
+		B667C116202C35190028BD75 /* featdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = featdefs.h; sourceTree = "<group>"; };
+		B667C117202C35190028BD75 /* feature_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature_base.h; sourceTree = "<group>"; };
+		B667C118202C35190028BD75 /* feature_bmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature_bmp.h; sourceTree = "<group>"; };
+		B667C119202C35190028BD75 /* feature_chebyshev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature_chebyshev.h; sourceTree = "<group>"; };
+		B667C11A202C35190028BD75 /* feature_hybrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature_hybrid.h; sourceTree = "<group>"; };
+		B667C11B202C35190028BD75 /* fileerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileerr.h; sourceTree = "<group>"; };
+		B667C11C202C35190028BD75 /* fileio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileio.h; sourceTree = "<group>"; };
+		B667C11D202C35190028BD75 /* findseam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findseam.h; sourceTree = "<group>"; };
+		B667C11E202C35190028BD75 /* fixspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixspace.h; sourceTree = "<group>"; };
+		B667C11F202C35190028BD75 /* flexfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flexfx.h; sourceTree = "<group>"; };
+		B667C120202C35190028BD75 /* float2int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float2int.h; sourceTree = "<group>"; };
+		B667C121202C35190028BD75 /* fontinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontinfo.h; sourceTree = "<group>"; };
+		B667C122202C35190028BD75 /* fpchop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fpchop.h; sourceTree = "<group>"; };
+		B667C123202C35190028BD75 /* fpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fpoint.h; sourceTree = "<group>"; };
+		B667C124202C35190028BD75 /* freelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freelist.h; sourceTree = "<group>"; };
+		B667C125202C35190028BD75 /* fxdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fxdefs.h; sourceTree = "<group>"; };
+		B667C126202C35190028BD75 /* gap_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gap_map.h; sourceTree = "<group>"; };
+		B667C127202C35190028BD75 /* genblob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genblob.h; sourceTree = "<group>"; };
+		B667C128202C35190028BD75 /* genericheap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericheap.h; sourceTree = "<group>"; };
+		B667C129202C35190028BD75 /* genericvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericvector.h; sourceTree = "<group>"; };
+		B667C12A202C35190028BD75 /* gettimeofday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gettimeofday.h; sourceTree = "<group>"; };
+		B667C12B202C35190028BD75 /* globaloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globaloc.h; sourceTree = "<group>"; };
+		B667C12C202C35190028BD75 /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		B667C12D202C35190028BD75 /* gradechop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gradechop.h; sourceTree = "<group>"; };
+		B667C12E202C35190028BD75 /* hashfn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashfn.h; sourceTree = "<group>"; };
+		B667C12F202C35190028BD75 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		B667C130202C35190028BD75 /* host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = host.h; sourceTree = "<group>"; };
+		B667C131202C35190028BD75 /* hpdsizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hpdsizes.h; sourceTree = "<group>"; };
+		B667C132202C35190028BD75 /* hybrid_neural_net_classifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybrid_neural_net_classifier.h; sourceTree = "<group>"; };
+		B667C133202C35190028BD75 /* icuerrorcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icuerrorcode.h; sourceTree = "<group>"; };
+		B667C134202C35190028BD75 /* imagefind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imagefind.h; sourceTree = "<group>"; };
+		B667C135202C35190028BD75 /* indexmapbidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indexmapbidi.h; sourceTree = "<group>"; };
+		B667C136202C35190028BD75 /* input_file_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_file_buffer.h; sourceTree = "<group>"; };
+		B667C137202C35190028BD75 /* intfeaturedist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intfeaturedist.h; sourceTree = "<group>"; };
+		B667C138202C35190028BD75 /* intfeaturemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intfeaturemap.h; sourceTree = "<group>"; };
+		B667C139202C35190028BD75 /* intfeaturespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intfeaturespace.h; sourceTree = "<group>"; };
+		B667C13A202C35190028BD75 /* intfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intfx.h; sourceTree = "<group>"; };
+		B667C13B202C35190028BD75 /* intmatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intmatcher.h; sourceTree = "<group>"; };
+		B667C13C202C35190028BD75 /* intproto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intproto.h; sourceTree = "<group>"; };
+		B667C13D202C35190028BD75 /* ipoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipoints.h; sourceTree = "<group>"; };
+		B667C13E202C35190028BD75 /* kdpair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kdpair.h; sourceTree = "<group>"; };
+		B667C13F202C35190028BD75 /* kdtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kdtree.h; sourceTree = "<group>"; };
+		B667C140202C35190028BD75 /* lang_mod_edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lang_mod_edge.h; sourceTree = "<group>"; };
+		B667C141202C35190028BD75 /* lang_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lang_model.h; sourceTree = "<group>"; };
+		B667C142202C35190028BD75 /* language_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = language_model.h; sourceTree = "<group>"; };
+		B667C143202C35190028BD75 /* ligature_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ligature_table.h; sourceTree = "<group>"; };
+		B667C144202C35190028BD75 /* linefind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linefind.h; sourceTree = "<group>"; };
+		B667C145202C35190028BD75 /* linlsq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linlsq.h; sourceTree = "<group>"; };
+		B667C146202C35190028BD75 /* listio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listio.h; sourceTree = "<group>"; };
+		B667C147202C35190028BD75 /* lm_consistency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lm_consistency.h; sourceTree = "<group>"; };
+		B667C148202C35190028BD75 /* lm_pain_points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lm_pain_points.h; sourceTree = "<group>"; };
+		B667C149202C35190028BD75 /* lm_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lm_state.h; sourceTree = "<group>"; };
+		B667C14A202C351A0028BD75 /* lsterr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lsterr.h; sourceTree = "<group>"; };
+		B667C14B202C351A0028BD75 /* ltrresultiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltrresultiterator.h; sourceTree = "<group>"; };
+		B667C14C202C351A0028BD75 /* makechop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = makechop.h; sourceTree = "<group>"; };
+		B667C14D202C351A0028BD75 /* makerow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = makerow.h; sourceTree = "<group>"; };
+		B667C14E202C351A0028BD75 /* mastertrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mastertrainer.h; sourceTree = "<group>"; };
+		B667C14F202C351A0028BD75 /* matchdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matchdefs.h; sourceTree = "<group>"; };
+		B667C150202C351A0028BD75 /* mathfix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathfix.h; sourceTree = "<group>"; };
+		B667C151202C351A0028BD75 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		B667C152202C351A0028BD75 /* measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measure.h; sourceTree = "<group>"; };
+		B667C153202C351A0028BD75 /* memry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memry.h; sourceTree = "<group>"; };
+		B667C154202C351A0028BD75 /* mergenf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mergenf.h; sourceTree = "<group>"; };
+		B667C155202C351A0028BD75 /* mf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mf.h; sourceTree = "<group>"; };
+		B667C156202C351A0028BD75 /* mfdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mfdefs.h; sourceTree = "<group>"; };
+		B667C157202C351A0028BD75 /* mfoutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mfoutline.h; sourceTree = "<group>"; };
+		B667C158202C351A0028BD75 /* mfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mfx.h; sourceTree = "<group>"; };
+		B667C159202C351A0028BD75 /* mod128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mod128.h; sourceTree = "<group>"; };
+		B667C15A202C351A0028BD75 /* mutableiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mutableiterator.h; sourceTree = "<group>"; };
+		B667C15B202C351A0028BD75 /* ndminx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ndminx.h; sourceTree = "<group>"; };
+		B667C15C202C351A0028BD75 /* neural_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neural_net.h; sourceTree = "<group>"; };
+		B667C15D202C351A0028BD75 /* neuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neuron.h; sourceTree = "<group>"; };
+		B667C15E202C351A0028BD75 /* normalis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normalis.h; sourceTree = "<group>"; };
+		B667C15F202C351A0028BD75 /* normfeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normfeat.h; sourceTree = "<group>"; };
+		B667C160202C351A0028BD75 /* normmatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normmatch.h; sourceTree = "<group>"; };
+		B667C161202C351A0028BD75 /* normstrngs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normstrngs.h; sourceTree = "<group>"; };
+		B667C162202C351A0028BD75 /* nwmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nwmain.h; sourceTree = "<group>"; };
+		B667C163202C351A0028BD75 /* object_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object_cache.h; sourceTree = "<group>"; };
+		B667C164202C351A0028BD75 /* oclkernels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oclkernels.h; sourceTree = "<group>"; };
+		B667C165202C351A0028BD75 /* ocrblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocrblock.h; sourceTree = "<group>"; };
+		B667C166202C351A0028BD75 /* ocrclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocrclass.h; sourceTree = "<group>"; };
+		B667C167202C351A0028BD75 /* ocrfeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocrfeatures.h; sourceTree = "<group>"; };
+		B667C168202C351A0028BD75 /* ocrpara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocrpara.h; sourceTree = "<group>"; };
+		B667C169202C351A0028BD75 /* ocrrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocrrow.h; sourceTree = "<group>"; };
+		B667C16A202C351A0028BD75 /* oldbasel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oldbasel.h; sourceTree = "<group>"; };
+		B667C16B202C351A0028BD75 /* oldlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oldlist.h; sourceTree = "<group>"; };
+		B667C16C202C351A0028BD75 /* olutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = olutil.h; sourceTree = "<group>"; };
+		B667C16D202C351A0028BD75 /* opencl_device_selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opencl_device_selection.h; sourceTree = "<group>"; };
+		B667C16E202C351A0028BD75 /* openclwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openclwrapper.h; sourceTree = "<group>"; };
+		B667C16F202C351A0028BD75 /* osdetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osdetect.h; sourceTree = "<group>"; };
+		B667C170202C351A0028BD75 /* otsuthr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otsuthr.h; sourceTree = "<group>"; };
+		B667C171202C351A0028BD75 /* outfeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = outfeat.h; sourceTree = "<group>"; };
+		B667C172202C351A0028BD75 /* outlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = outlines.h; sourceTree = "<group>"; };
+		B667C173202C351A0028BD75 /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output.h; sourceTree = "<group>"; };
+		B667C174202C351A0028BD75 /* pageiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageiterator.h; sourceTree = "<group>"; };
+		B667C175202C351A0028BD75 /* pageres.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageres.h; sourceTree = "<group>"; };
+		B667C176202C351A0028BD75 /* pango_font_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pango_font_info.h; sourceTree = "<group>"; };
+		B667C177202C351A0028BD75 /* paragraphs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paragraphs.h; sourceTree = "<group>"; };
+		B667C178202C351A0028BD75 /* paragraphs_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paragraphs_internal.h; sourceTree = "<group>"; };
+		B667C179202C351A0028BD75 /* params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = params.h; sourceTree = "<group>"; };
+		B667C17A202C351A0028BD75 /* params_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = params_model.h; sourceTree = "<group>"; };
+		B667C17B202C351A0028BD75 /* params_training_featdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = params_training_featdef.h; sourceTree = "<group>"; };
+		B667C17C202C351A0028BD75 /* paramsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paramsd.h; sourceTree = "<group>"; };
+		B667C17D202C351A0028BD75 /* pdblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdblock.h; sourceTree = "<group>"; };
+		B667C17E202C351A0028BD75 /* pgedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pgedit.h; sourceTree = "<group>"; };
+		B667C17F202C351A0028BD75 /* picofeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picofeat.h; sourceTree = "<group>"; };
+		B667C180202C351A0028BD75 /* pithsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pithsync.h; sourceTree = "<group>"; };
+		B667C181202C351A0028BD75 /* pitsync1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitsync1.h; sourceTree = "<group>"; };
+		B667C182202C351A0028BD75 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		B667C183202C351A0028BD75 /* plotedges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plotedges.h; sourceTree = "<group>"; };
+		B667C184202C351A0028BD75 /* points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = points.h; sourceTree = "<group>"; };
+		B667C185202C351A0028BD75 /* polyaprx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyaprx.h; sourceTree = "<group>"; };
+		B667C186202C351A0028BD75 /* polyblk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyblk.h; sourceTree = "<group>"; };
+		B667C187202C351A0028BD75 /* protos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protos.h; sourceTree = "<group>"; };
+		B667C188202C351A0028BD75 /* publictypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = publictypes.h; sourceTree = "<group>"; };
+		B667C189202C351A0028BD75 /* qrsequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrsequence.h; sourceTree = "<group>"; };
+		B667C18A202C351A0028BD75 /* quadlsq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quadlsq.h; sourceTree = "<group>"; };
+		B667C18B202C351A0028BD75 /* quadratc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quadratc.h; sourceTree = "<group>"; };
+		B667C18C202C351A0028BD75 /* quspline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quspline.h; sourceTree = "<group>"; };
+		B667C18D202C351A0028BD75 /* ratngs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ratngs.h; sourceTree = "<group>"; };
+		B667C18E202C351A0028BD75 /* rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rect.h; sourceTree = "<group>"; };
+		B667C18F202C351A0028BD75 /* rejctmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rejctmap.h; sourceTree = "<group>"; };
+		B667C190202C351A0028BD75 /* reject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reject.h; sourceTree = "<group>"; };
+		B667C191202C351A0028BD75 /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
+		B667C192202C351A0028BD75 /* renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderer.h; sourceTree = "<group>"; };
+		B667C193202C351A0028BD75 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		B667C194202C351A0028BD75 /* resultiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultiterator.h; sourceTree = "<group>"; };
+		B667C195202C351A0028BD75 /* sampleiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sampleiterator.h; sourceTree = "<group>"; };
+		B667C196202C351A0028BD75 /* scanedg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanedg.h; sourceTree = "<group>"; };
+		B667C197202C351A0028BD75 /* scanutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanutils.h; sourceTree = "<group>"; };
+		B667C198202C351A0028BD75 /* scrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollview.h; sourceTree = "<group>"; };
+		B667C199202C351A0028BD75 /* seam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seam.h; sourceTree = "<group>"; };
+		B667C19A202C351A0028BD75 /* search_column.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search_column.h; sourceTree = "<group>"; };
+		B667C19B202C351A0028BD75 /* search_node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search_node.h; sourceTree = "<group>"; };
+		B667C19C202C351A0028BD75 /* search_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search_object.h; sourceTree = "<group>"; };
+		B667C19D202C351A0028BD75 /* secname.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secname.h; sourceTree = "<group>"; };
+		B667C19E202C351A0028BD75 /* serialis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serialis.h; sourceTree = "<group>"; };
+		B667C19F202C351A0028BD75 /* shapeclassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapeclassifier.h; sourceTree = "<group>"; };
+		B667C1A0202C351A0028BD75 /* shapetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapetable.h; sourceTree = "<group>"; };
+		B667C1A1202C351A0028BD75 /* sortflts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortflts.h; sourceTree = "<group>"; };
+		B667C1A2202C351A0028BD75 /* sorthelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sorthelper.h; sourceTree = "<group>"; };
+		B667C1A3202C351A0028BD75 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		B667C1A4202C351A0028BD75 /* statistc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statistc.h; sourceTree = "<group>"; };
+		B667C1A5202C351A0028BD75 /* stderr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stderr.h; sourceTree = "<group>"; };
+		B667C1A6202C351A0028BD75 /* stepblob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stepblob.h; sourceTree = "<group>"; };
+		B667C1A7202C351A0028BD75 /* stopper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stopper.h; sourceTree = "<group>"; };
+		B667C1A8202C351A0028BD75 /* strcasestr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strcasestr.h; sourceTree = "<group>"; };
+		B667C1A9202C351A0028BD75 /* string_32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_32.h; sourceTree = "<group>"; };
+		B667C1AA202C351A0028BD75 /* stringrenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringrenderer.h; sourceTree = "<group>"; };
+		B667C1AB202C351A0028BD75 /* strngs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strngs.h; sourceTree = "<group>"; };
+		B667C1AC202C351A0028BD75 /* strokewidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strokewidth.h; sourceTree = "<group>"; };
+		B667C1AD202C351A0028BD75 /* strtok_r.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strtok_r.h; sourceTree = "<group>"; };
+		B667C1AE202C351A0028BD75 /* structures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
+		B667C1AF202C351A0028BD75 /* svmnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svmnode.h; sourceTree = "<group>"; };
+		B667C1B0202C351A0028BD75 /* svutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svutil.h; sourceTree = "<group>"; };
+		B667C1B1202C351A0028BD75 /* tabfind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabfind.h; sourceTree = "<group>"; };
+		B667C1B2202C351A0028BD75 /* tablefind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tablefind.h; sourceTree = "<group>"; };
+		B667C1B3202C351A0028BD75 /* tablerecog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tablerecog.h; sourceTree = "<group>"; };
+		B667C1B4202C351A0028BD75 /* tabvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabvector.h; sourceTree = "<group>"; };
+		B667C1B5202C351A0028BD75 /* tess_lang_mod_edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tess_lang_mod_edge.h; sourceTree = "<group>"; };
+		B667C1B6202C351A0028BD75 /* tess_lang_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tess_lang_model.h; sourceTree = "<group>"; };
+		B667C1B7202C351A0028BD75 /* tessbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessbox.h; sourceTree = "<group>"; };
+		B667C1B8202C351A0028BD75 /* tesscallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesscallback.h; sourceTree = "<group>"; };
+		B667C1B9202C351A0028BD75 /* tessclassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessclassifier.h; sourceTree = "<group>"; };
+		B667C1BA202C351A0028BD75 /* tessdatamanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessdatamanager.h; sourceTree = "<group>"; };
+		B667C1BB202C351A0028BD75 /* tessedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessedit.h; sourceTree = "<group>"; };
+		B667C1BC202C351A0028BD75 /* tesseract_cube_combiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesseract_cube_combiner.h; sourceTree = "<group>"; };
+		B667C1BD202C351A0028BD75 /* tesseractclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesseractclass.h; sourceTree = "<group>"; };
+		B667C1BE202C351A0028BD75 /* tessopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessopt.h; sourceTree = "<group>"; };
+		B667C1BF202C351A0028BD75 /* tessvars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessvars.h; sourceTree = "<group>"; };
+		B667C1C0202C351A0028BD75 /* textlineprojection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textlineprojection.h; sourceTree = "<group>"; };
+		B667C1C1202C351A0028BD75 /* textord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textord.h; sourceTree = "<group>"; };
+		B667C1C2202C351A0028BD75 /* thresholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thresholder.h; sourceTree = "<group>"; };
+		B667C1C3202C351A0028BD75 /* tlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tlog.h; sourceTree = "<group>"; };
+		B667C1C4202C351A0028BD75 /* topitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topitch.h; sourceTree = "<group>"; };
+		B667C1C5202C351A0028BD75 /* tordmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tordmain.h; sourceTree = "<group>"; };
+		B667C1C6202C351A0028BD75 /* tovars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tovars.h; sourceTree = "<group>"; };
+		B667C1C7202C351A0028BD75 /* tprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tprintf.h; sourceTree = "<group>"; };
+		B667C1C8202C351A0028BD75 /* trainingsample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trainingsample.h; sourceTree = "<group>"; };
+		B667C1C9202C351A0028BD75 /* trainingsampleset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trainingsampleset.h; sourceTree = "<group>"; };
+		B667C1CA202C351A0028BD75 /* trie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trie.h; sourceTree = "<group>"; };
+		B667C1CB202C351A0028BD75 /* tuning_params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tuning_params.h; sourceTree = "<group>"; };
+		B667C1CC202C351A0028BD75 /* underlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = underlin.h; sourceTree = "<group>"; };
+		B667C1CD202C351A0028BD75 /* unichar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unichar.h; sourceTree = "<group>"; };
+		B667C1CE202C351A0028BD75 /* unicharmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicharmap.h; sourceTree = "<group>"; };
+		B667C1CF202C351A0028BD75 /* unicharset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicharset.h; sourceTree = "<group>"; };
+		B667C1D0202C351A0028BD75 /* unicity_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicity_table.h; sourceTree = "<group>"; };
+		B667C1D1202C351A0028BD75 /* unicodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicodes.h; sourceTree = "<group>"; };
+		B667C1D2202C351A0028BD75 /* universalambigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = universalambigs.h; sourceTree = "<group>"; };
+		B667C1D3202C351A0028BD75 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		B667C1D4202C351A0028BD75 /* vecfuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vecfuncs.h; sourceTree = "<group>"; };
+		B667C1D5202C351A0028BD75 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		B667C1D6202C351A0028BD75 /* werd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werd.h; sourceTree = "<group>"; };
+		B667C1D7202C351A0028BD75 /* werdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werdit.h; sourceTree = "<group>"; };
+		B667C1D8202C351A0028BD75 /* word_altlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = word_altlist.h; sourceTree = "<group>"; };
+		B667C1D9202C351A0028BD75 /* word_list_lang_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = word_list_lang_model.h; sourceTree = "<group>"; };
+		B667C1DA202C351A0028BD75 /* word_size_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = word_size_model.h; sourceTree = "<group>"; };
+		B667C1DB202C351A0028BD75 /* word_unigrams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = word_unigrams.h; sourceTree = "<group>"; };
+		B667C1DC202C351A0028BD75 /* wordrec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordrec.h; sourceTree = "<group>"; };
+		B667C1DD202C351A0028BD75 /* wordseg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordseg.h; sourceTree = "<group>"; };
+		B667C1DE202C351A0028BD75 /* workingpartset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workingpartset.h; sourceTree = "<group>"; };
+		B667C1DF202C351A0028BD75 /* xform2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xform2d.h; sourceTree = "<group>"; };
+		B66A3774207B5414000C7E04 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipBase.framework; sourceTree = "<group>"; };
+		B66A3775207B5415000C7E04 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipOcrSdk.framework; sourceTree = "<group>"; };
+		B66A377B207B5514000C7E04 /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IdcardQuality.framework; sourceTree = "<group>"; };
+		B686A6152181ACEF00D423B6 /* STImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImageController.h; sourceTree = "<group>"; };
+		B686A6162181ACEF00D423B6 /* STImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImageController.m; sourceTree = "<group>"; };
+		B686A6172181ACEF00D423B6 /* STListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STListController.h; sourceTree = "<group>"; };
+		B686A6182181ACEF00D423B6 /* STListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STListController.m; sourceTree = "<group>"; };
+		B686A6192181ACEF00D423B6 /* STViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		B686A61A2181ACEF00D423B6 /* STViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		B686A61B2181ACF000D423B6 /* onepiece_kiudai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onepiece_kiudai.png; sourceTree = "<group>"; };
+		B686A61D2181ACF000D423B6 /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		B686A61E2181ACF000D423B6 /* STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefresh.h; sourceTree = "<group>"; };
+		B686A61F2181ACF000D423B6 /* STRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefreshHeader.h; sourceTree = "<group>"; };
+		B686A6202181ACF000D423B6 /* STRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRefreshHeader.m; sourceTree = "<group>"; };
+		B686A6212181ACF000D423B6 /* UIScrollView+STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+STRefresh.h"; sourceTree = "<group>"; };
+		B686A6222181ACF000D423B6 /* UIScrollView+STRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+STRefresh.m"; sourceTree = "<group>"; };
+		B686A6242181ACF100D423B6 /* STTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTransitions.h; sourceTree = "<group>"; };
+		B686A6252181ACF100D423B6 /* STTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTransitions.m; sourceTree = "<group>"; };
+		B686A6272181ACF100D423B6 /* CustomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionView.h; sourceTree = "<group>"; };
+		B686A6282181ACF100D423B6 /* CustomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionView.m; sourceTree = "<group>"; };
+		B686A6292181ACF100D423B6 /* CustomSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentControl.h; sourceTree = "<group>"; };
+		B686A62A2181ACF100D423B6 /* CustomSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentControl.m; sourceTree = "<group>"; };
+		B686A62B2181ACF100D423B6 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		B686A62C2181ACF100D423B6 /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		B688B4F2202C3C4A0093E90B /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
+		B688B4F3202C3C4A0093E90B /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
+		B688B4F7202C42130093E90B /* letter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = letter.jpg; sourceTree = "<group>"; };
+		B688B51E202C4CB10093E90B /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		B6A720C2218F009C00484586 /* 2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		B6A720C3218F009D00484586 /* 1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		B6A720C4218F009D00484586 /* 3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		B6A720C8218F037A00484586 /* 3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		B6A720C9218F037B00484586 /* 2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		B6AA5F25218849790098D922 /* newsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newsDetailViewController.h; sourceTree = "<group>"; };
+		B6AA5F26218849790098D922 /* newsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newsDetailViewController.m; sourceTree = "<group>"; };
+		B6F90D7F20BE85BC00B370DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E0A946A9A37604A3DBE0A9E8 /* Pods-OCRRecognition1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRRecognition1.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCRRecognition1/Pods-OCRRecognition1.release.xcconfig"; sourceTree = "<group>"; };
+		EB6B9C222357E9829545ABA1 /* libPods-OCRRecognition1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRRecognition1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +779,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64259832084A660000163F1 /* libsqlite3.tbd in Frameworks */,
+				B64259812084A645000163F1 /* libsqlite3.0.tbd in Frameworks */,
+				B688B4F4202C3C4A0093E90B /* liblept.a in Frameworks */,
+				B66A3778207B5415000C7E04 /* AipOcrSdk.framework in Frameworks */,
+				21F60C529386D61E820070CC /* libPods-OCRRecognition1.a in Frameworks */,
+				B66A3776207B5415000C7E04 /* AipBase.framework in Frameworks */,
+				B688B4F5202C3C4A0093E90B /* libtesseract_all.a in Frameworks */,
+				B66A377C207B5514000C7E04 /* IdcardQuality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +807,216 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE2AA6F3B9F74B5D92286AB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D0DDC29E85E1A380C000358 /* Pods-OCRRecognition1.debug.xcconfig */,
+				E0A946A9A37604A3DBE0A9E8 /* Pods-OCRRecognition1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B61AE0CE20879A300070337A /* log */ = {
+			isa = PBXGroup;
+			children = (
+				B6425978207CD922000163F1 /* NSArray+Log.h */,
+				B6425977207CD922000163F1 /* NSArray+Log.m */,
+				B6425975207CD921000163F1 /* NSDictionary+Log.h */,
+				B6425976207CD921000163F1 /* NSDictionary+Log.m */,
+				B6425974207CD920000163F1 /* NSString+unicode.h */,
+				B6425979207CD922000163F1 /* NSString+unicode.m */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		B61AE0CF20879AA10070337A /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B61AE0D020879AA10070337A /* KBTabbar.h */,
+				B61AE0D120879AA10070337A /* KBTabbar.m */,
+				B61AE0D220879AA10070337A /* KBTabbarController.h */,
+				B61AE0D320879AA10070337A /* KBTabbarController.m */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		B61AE0DF20883EA80070337A /* IOS images @2x */ = {
+			isa = PBXGroup;
+			children = (
+				B61AE0E020883EA80070337A /* QQ未选中@2x.png */,
+				B61AE0E120883EA80070337A /* QQ点击@2x.png */,
+				B61AE0E220883EA80070337A /* 上门咨询@2x.png */,
+				B61AE0E320883EA80070337A /* 个人中心@2x.png */,
+				B61AE0E420883EA80070337A /* 个人中心选中@2x.png */,
+				B61AE0E520883EA80070337A /* 个人信息@2x.png */,
+				B61AE0E620883EA80070337A /* 健康档案@2x.png */,
+				B61AE0E720883EA80070337A /* 关注@2x.png */,
+				B61AE0E820883EA80070337A /* 区域代表图标@2x.png */,
+				B61AE0E920883EA80070337A /* 医院图标@2x.png */,
+				B61AE0EA20883EA80070337A /* 发现@2x.png */,
+				B61AE0EB20883EA80070337A /* 发现选中@2x.png */,
+				B61AE0EC20883EA80070337A /* 在线咨询@2x.png */,
+				B61AE0ED20883EA80070337A /* 妇产科@2x.png */,
+				B61AE0EE20883EA80070337A /* 定位@2x.png */,
+				B61AE0EF20883EA80070337A /* 定位按钮@2x.png */,
+				B61AE0F020883EA80070337A /* 微信支付@2x.png */,
+				B61AE0F120883EA80070337A /* 微信未选中@2x.png */,
+				B61AE0F220883EA80070337A /* 微信点击@2x.png */,
+				B61AE0F320883EA80070337A /* 意见反馈@2x.png */,
+				B61AE0F420883EA80070337A /* 我的医生@2x.png */,
+				B61AE0F520883EA80070337A /* 我的积分@2x.png */,
+				B61AE0F620883EA80070337A /* 我的账户@2x.png */,
+				B61AE0F720883EA80070337A /* 报告单@2x.png */,
+				B61AE0F820883EA80070337A /* 搜索@2x.png */,
+				B61AE0F920883EA80070337A /* 搜索灰色@2x.png */,
+				B61AE0FA20883EA80070337A /* 支付宝@2x.png */,
+				B61AE0FB20883EA80070337A /* 放大缩小@2x.png */,
+				B61AE0FC20883EA80070337A /* 明星认证@2x.png */,
+				B61AE0FD20883EA80070337A /* 星专家@2x.png */,
+				B61AE0FE20883EA80070337A /* 星专家选中@2x.png */,
+				B61AE0FF20883EA80070337A /* 星医生@2x.png */,
+				B61AE10020883EA80070337A /* 星医生选中@2x.png */,
+				B61AE10120883EA80070337A /* 未选中@2x.png */,
+				B61AE10220883EA80070337A /* 未选择@2x.png */,
+				B61AE10320883EA80070337A /* 活动已结束@2x.png */,
+				B61AE10420883EA80070337A /* 活动进行中@2x.png */,
+				B61AE10520883EA80070337A /* 添加好友@2x.png */,
+				B61AE10620883EA80070337A /* 添加好友QQ@2x.png */,
+				B61AE10720883EA80070337A /* 添加好友微信@2x.png */,
+				B61AE10820883EA80070337A /* 添加好友朋友圈@2x.png */,
+				B61AE10920883EA80070337A /* 灰电话咨询@2x.png */,
+				B61AE10A20883EA80070337A /* 电话咨询大图@2x.png */,
+				B61AE10B20883EA80070337A /* 病例单@2x.png */,
+				B61AE10C20883EA80070337A /* 病历单设置@2x.png */,
+				B61AE10D20883EA80070337A /* 相机@2x.png */,
+				B61AE10E20883EA80070337A /* 私人医生@2x.png */,
+				B61AE10F20883EA80070337A /* 私人医生大图@2x.png */,
+				B61AE11020883EA80070337A /* 红包@2x.png */,
+				B61AE11120883EA80070337A /* 药店@2x.png */,
+				B61AE11220883EA80070337A /* 设置@2x.png */,
+				B61AE11320883EA80070337A /* 返回按钮@2x.png */,
+				B61AE11420883EA80070337A /* 进入提示@2x.png */,
+				B61AE11520883EA80070337A /* 选中@2x.png */,
+				B61AE11620883EA80070337A /* 选择@2x.png */,
+				B61AE11720883EA80070337A /* 邀请好友@2x.png */,
+				B61AE11820883EA80070337A /* 银行卡支付@2x.png */,
+				B61AE11920883EA80070337A /* 门诊预约@2x.png */,
+				B61AE11A20883EA80070337A /* 门诊预约大图@2x.png */,
+				B61AE11B20883EA80070337A /* 首页@2x.png */,
+				B61AE11C20883EA80070337A /* 首页选中@2x.png */,
+			);
+			path = "IOS images @2x";
+			sourceTree = "<group>";
+		};
+		B61AE15A20883EB10070337A /* IOS images@3x */ = {
+			isa = PBXGroup;
+			children = (
+				B61AE15B20883EB10070337A /* QQ未选中@3x.png */,
+				B61AE15C20883EB10070337A /* QQ点击@3x.png */,
+				B61AE15D20883EB10070337A /* 上门咨询@3x.png */,
+				B61AE15E20883EB10070337A /* 个人中心@3x.png */,
+				B61AE15F20883EB10070337A /* 个人中心选中@3x.png */,
+				B61AE16020883EB10070337A /* 个人信息@3x.png */,
+				B61AE16120883EB10070337A /* 健康档案@3x.png */,
+				B61AE16220883EB10070337A /* 关注@3x.png */,
+				B61AE16320883EB10070337A /* 区域代表图标@3x.png */,
+				B61AE16420883EB10070337A /* 医院图标@3x.png */,
+				B61AE16520883EB10070337A /* 发现@3x.png */,
+				B61AE16620883EB10070337A /* 发现选中@3x.png */,
+				B61AE16720883EB10070337A /* 在线咨询@3x.png */,
+				B61AE16820883EB10070337A /* 妇产科@3x.png */,
+				B61AE16920883EB10070337A /* 定位@3x.png */,
+				B61AE16A20883EB10070337A /* 定位按钮@3x.png */,
+				B61AE16B20883EB10070337A /* 微信支付@3x.png */,
+				B61AE16C20883EB10070337A /* 微信未选中@3x.png */,
+				B61AE16D20883EB10070337A /* 微信点击@3x.png */,
+				B61AE16E20883EB10070337A /* 意见反馈@3x.png */,
+				B61AE16F20883EB10070337A /* 我的医生@3x.png */,
+				B61AE17020883EB10070337A /* 我的积分@3x.png */,
+				B61AE17120883EB10070337A /* 我的账户@3x.png */,
+				B61AE17220883EB10070337A /* 报告单@3x.png */,
+				B61AE17320883EB10070337A /* 搜索@3x.png */,
+				B61AE17420883EB10070337A /* 搜索灰色@3x.png */,
+				B61AE17520883EB10070337A /* 支付宝@3x.png */,
+				B61AE17620883EB10070337A /* 放大缩小@3x.png */,
+				B61AE17720883EB10070337A /* 明星认证@3x.png */,
+				B61AE17820883EB10070337A /* 星专家@3x.png */,
+				B61AE17920883EB10070337A /* 星专家选中@3x.png */,
+				B61AE17A20883EB10070337A /* 星医生@3x.png */,
+				B61AE17B20883EB10070337A /* 星医生选中@3x.png */,
+				B61AE17C20883EB10070337A /* 未选中@3x.png */,
+				B61AE17D20883EB10070337A /* 未选择@3x.png */,
+				B61AE17E20883EB10070337A /* 活动已结束@3x.png */,
+				B61AE17F20883EB10070337A /* 活动进行中@3x.png */,
+				B61AE18020883EB10070337A /* 添加好友@3x.png */,
+				B61AE18120883EB10070337A /* 添加好友QQ@3x.png */,
+				B61AE18220883EB10070337A /* 添加好友微信@3x.png */,
+				B61AE18320883EB10070337A /* 添加好友朋友圈@3x.png */,
+				B61AE18420883EB10070337A /* 灰电话咨询@3x.png */,
+				B61AE18520883EB10070337A /* 电话咨询大图@3x.png */,
+				B61AE18620883EB10070337A /* 病例单@3x.png */,
+				B61AE18720883EB10070337A /* 病历单设置@3x.png */,
+				B61AE18820883EB10070337A /* 相机@3x.png */,
+				B61AE18920883EB10070337A /* 私人医生@3x.png */,
+				B61AE18A20883EB10070337A /* 私人医生大图@3x.png */,
+				B61AE18B20883EB10070337A /* 红包@3x.png */,
+				B61AE18C20883EB10070337A /* 药店@3x.png */,
+				B61AE18D20883EB10070337A /* 设置@3x.png */,
+				B61AE18E20883EB10070337A /* 返回按钮@3x.png */,
+				B61AE18F20883EB10070337A /* 进入提示@3x.png */,
+				B61AE19020883EB10070337A /* 选中@3x.png */,
+				B61AE19120883EB10070337A /* 选择@3x.png */,
+				B61AE19220883EB10070337A /* 邀请好友@3x.png */,
+				B61AE19320883EB10070337A /* 银行卡支付@3x.png */,
+				B61AE19420883EB10070337A /* 门诊预约@3x.png */,
+				B61AE19520883EB10070337A /* 门诊预约大图@3x.png */,
+				B61AE19620883EB10070337A /* 首页@3x.png */,
+				B61AE19720883EB10070337A /* 首页选中@3x.png */,
+			);
+			path = "IOS images@3x";
+			sourceTree = "<group>";
+		};
+		B61AE1D5208842F30070337A /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				B64323F4218B2B14003E76B0 /* 登陆 */,
+				B61AE1DA2088436D0070337A /* InstalledTableViewController.h */,
+				B61AE1D92088436D0070337A /* InstalledTableViewController.m */,
+				B61AE1D72088430C0070337A /* SuggestionViewController.h */,
+				B61AE1D62088430C0070337A /* SuggestionViewController.m */,
+			);
+			path = "个人中心";
+			sourceTree = "<group>";
+		};
+		B64323F4218B2B14003E76B0 /* 登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				B64323F5218B2B14003E76B0 /* ForgetViewController.h */,
+				B64323F6218B2B14003E76B0 /* ForgetViewController.m */,
+				B64323F7218B2B14003E76B0 /* RegisterViewController.h */,
+				B64323F8218B2B14003E76B0 /* RegisterViewController.m */,
+				B64323F9218B2B14003E76B0 /* userAgreementViewController.h */,
+				B64323FA218B2B14003E76B0 /* userAgreementViewController.m */,
+				B64323FB218B2B14003E76B0 /* WelcomeViewController.h */,
+				B64323FC218B2B14003E76B0 /* WelcomeViewController.m */,
+			);
+			path = "登陆";
+			sourceTree = "<group>";
+		};
 		B64859DA202C17F70093E0E2 = {
 			isa = PBXGroup;
 			children = (
+				B6A720C9218F037B00484586 /* 2.json */,
+				B6A720C8218F037A00484586 /* 3.json */,
+				B6A720C3218F009D00484586 /* 1.json */,
+				B6A720C2218F009C00484586 /* 2.json */,
+				B6A720C4218F009D00484586 /* 3.json */,
 				B64859E5202C17F70093E0E2 /* OCRRecognition1 */,
 				B64859FE202C17F70093E0E2 /* OCRRecognition1Tests */,
 				B6485A09202C17F70093E0E2 /* OCRRecognition1UITests */,
 				B64859E4202C17F70093E0E2 /* Products */,
+				AE2AA6F3B9F74B5D92286AB9 /* Pods */,
+				E517D3143F96AF7B69278D18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +1033,29 @@
 		B64859E5202C17F70093E0E2 /* OCRRecognition1 */ = {
 			isa = PBXGroup;
 			children = (
+				B686A5CC2180A88500D423B6 /* table */,
+				B61AE0CF20879AA10070337A /* tabBar */,
+				B61AE0CE20879A300070337A /* log */,
+				B688B51E202C4CB10093E90B /* tessdata */,
+				B688B4F6202C41DC0093E90B /* image */,
+				B61AE1D5208842F30070337A /* 个人中心 */,
 				B64859E6202C17F70093E0E2 /* AppDelegate.h */,
 				B64859E7202C17F70093E0E2 /* AppDelegate.m */,
 				B64859E9202C17F70093E0E2 /* ViewController.h */,
 				B64859EA202C17F70093E0E2 /* ViewController.m */,
+				B642597D20849F48000163F1 /* historyTableViewController.h */,
+				B642597E20849F48000163F1 /* historyTableViewController.m */,
+				B61AE0CB2085E4A30070337A /* detailViewController.h */,
+				B61AE0CC2085E4A40070337A /* detailViewController.m */,
+				B61AE0DC2087B5F80070337A /* settingViewController.h */,
+				B61AE0DD2087B5F80070337A /* settingViewController.m */,
 				B64859EC202C17F70093E0E2 /* Main.storyboard */,
-				B64859EF202C17F70093E0E2 /* Assets.xcassets */,
 				B64859F1202C17F70093E0E2 /* LaunchScreen.storyboard */,
 				B64859F4202C17F70093E0E2 /* Info.plist */,
 				B64859F5202C17F70093E0E2 /* main.m */,
+				B667C092202C35190028BD75 /* core */,
+				B667C07F202C34AA0028BD75 /* TesseractOCRMethod */,
+				B6F90D7F20BE85BC00B370DF /* Images.xcassets */,
 			);
 			path = OCRRecognition1;
 			sourceTree = "<group>";
@@ -132,6 +1078,483 @@
 			path = OCRRecognition1UITests;
 			sourceTree = "<group>";
 		};
+		B667C07F202C34AA0028BD75 /* TesseractOCRMethod */ = {
+			isa = PBXGroup;
+			children = (
+				B667C080202C34AA0028BD75 /* G8Constants.h */,
+				B667C081202C34AA0028BD75 /* G8RecognitionOperation.h */,
+				B667C082202C34AA0028BD75 /* G8RecognitionOperation.m */,
+				B667C083202C34AA0028BD75 /* G8RecognizedBlock.h */,
+				B667C084202C34AA0028BD75 /* G8RecognizedBlock.m */,
+				B667C085202C34AA0028BD75 /* G8Tesseract.h */,
+				B667C086202C34AA0028BD75 /* G8Tesseract.mm */,
+				B667C087202C34AA0028BD75 /* G8TesseractDelegate.h */,
+				B667C088202C34AA0028BD75 /* G8TesseractParameters.h */,
+				B667C089202C34AA0028BD75 /* G8TesseractParameters.m */,
+				B667C08A202C34AA0028BD75 /* TesseractOCR.h */,
+				B667C08B202C34AA0028BD75 /* UIImage+G8Filters.h */,
+				B667C08C202C34AA0028BD75 /* UIImage+G8Filters.m */,
+			);
+			path = TesseractOCRMethod;
+			sourceTree = "<group>";
+		};
+		B667C092202C35190028BD75 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				B667C093202C35190028BD75 /* build_dependencies.sh */,
+				B688B4F1202C3C4A0093E90B /* lib */,
+				B667C094202C35190028BD75 /* include */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		B667C094202C35190028BD75 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B667C095202C35190028BD75 /* leptonica */,
+				B667C0B4202C35190028BD75 /* tesseract */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B667C095202C35190028BD75 /* leptonica */ = {
+			isa = PBXGroup;
+			children = (
+				B667C096202C35190028BD75 /* allheaders.h */,
+				B667C097202C35190028BD75 /* alltypes.h */,
+				B667C098202C35190028BD75 /* array.h */,
+				B667C099202C35190028BD75 /* arrayaccess.h */,
+				B667C09A202C35190028BD75 /* bbuffer.h */,
+				B667C09B202C35190028BD75 /* bilateral.h */,
+				B667C09C202C35190028BD75 /* bmf.h */,
+				B667C09D202C35190028BD75 /* bmp.h */,
+				B667C09E202C35190028BD75 /* ccbord.h */,
+				B667C09F202C35190028BD75 /* config_auto.h */,
+				B667C0A0202C35190028BD75 /* dewarp.h */,
+				B667C0A1202C35190028BD75 /* endianness.h */,
+				B667C0A2202C35190028BD75 /* environ.h */,
+				B667C0A3202C35190028BD75 /* freetype.h */,
+				B667C0A4202C35190028BD75 /* gplot.h */,
+				B667C0A5202C35190028BD75 /* heap.h */,
+				B667C0A6202C35190028BD75 /* imageio.h */,
+				B667C0A7202C35190028BD75 /* jbclass.h */,
+				B667C0A8202C35190028BD75 /* leptwin.h */,
+				B667C0A9202C35190028BD75 /* list.h */,
+				B667C0AA202C35190028BD75 /* morph.h */,
+				B667C0AB202C35190028BD75 /* pix.h */,
+				B667C0AC202C35190028BD75 /* ptra.h */,
+				B667C0AD202C35190028BD75 /* queue.h */,
+				B667C0AE202C35190028BD75 /* readbarcode.h */,
+				B667C0AF202C35190028BD75 /* recog.h */,
+				B667C0B0202C35190028BD75 /* regutils.h */,
+				B667C0B1202C35190028BD75 /* stack.h */,
+				B667C0B2202C35190028BD75 /* sudoku.h */,
+				B667C0B3202C35190028BD75 /* watershed.h */,
+			);
+			path = leptonica;
+			sourceTree = "<group>";
+		};
+		B667C0B4202C35190028BD75 /* tesseract */ = {
+			isa = PBXGroup;
+			children = (
+				B667C0B5202C35190028BD75 /* adaptive.h */,
+				B667C0B6202C35190028BD75 /* alignedblob.h */,
+				B667C0B7202C35190028BD75 /* altlist.h */,
+				B667C0B8202C35190028BD75 /* ambigs.h */,
+				B667C0B9202C35190028BD75 /* apitypes.h */,
+				B667C0BA202C35190028BD75 /* associate.h */,
+				B667C0BB202C35190028BD75 /* baseapi.h */,
+				B667C0BC202C35190028BD75 /* basedir.h */,
+				B667C0BD202C35190028BD75 /* baselinedetect.h */,
+				B667C0BE202C35190028BD75 /* bbgrid.h */,
+				B667C0BF202C35190028BD75 /* beam_search.h */,
+				B667C0C0202C35190028BD75 /* bits16.h */,
+				B667C0C1202C35190028BD75 /* bitvec.h */,
+				B667C0C2202C35190028BD75 /* bitvector.h */,
+				B667C0C3202C35190028BD75 /* blamer.h */,
+				B667C0C4202C35190028BD75 /* blckerr.h */,
+				B667C0C5202C35190028BD75 /* blkocc.h */,
+				B667C0C6202C35190028BD75 /* blobbox.h */,
+				B667C0C7202C35190028BD75 /* blobclass.h */,
+				B667C0C8202C35190028BD75 /* blobgrid.h */,
+				B667C0C9202C35190028BD75 /* blobs.h */,
+				B667C0CA202C35190028BD75 /* blread.h */,
+				B667C0CB202C35190028BD75 /* bmp_8.h */,
+				B667C0CC202C35190028BD75 /* boxchar.h */,
+				B667C0CD202C35190028BD75 /* boxread.h */,
+				B667C0CE202C35190028BD75 /* boxword.h */,
+				B667C0CF202C35190028BD75 /* cached_file.h */,
+				B667C0D0202C35190028BD75 /* callcpp.h */,
+				B667C0D1202C35190028BD75 /* capi.h */,
+				B667C0D2202C35190028BD75 /* ccnontextdetect.h */,
+				B667C0D3202C35190028BD75 /* ccstruct.h */,
+				B667C0D4202C35190028BD75 /* ccutil.h */,
+				B667C0D5202C35190028BD75 /* char_altlist.h */,
+				B667C0D6202C35190028BD75 /* char_bigrams.h */,
+				B667C0D7202C35190028BD75 /* char_samp.h */,
+				B667C0D8202C35190028BD75 /* char_samp_enum.h */,
+				B667C0D9202C35190028BD75 /* char_samp_set.h */,
+				B667C0DA202C35190028BD75 /* char_set.h */,
+				B667C0DB202C35190028BD75 /* chop.h */,
+				B667C0DC202C35190028BD75 /* chopper.h */,
+				B667C0DD202C35190028BD75 /* cjkpitch.h */,
+				B667C0DE202C35190028BD75 /* classifier_base.h */,
+				B667C0DF202C35190028BD75 /* classifier_factory.h */,
+				B667C0E0202C35190028BD75 /* classify.h */,
+				B667C0E1202C35190028BD75 /* clst.h */,
+				B667C0E2202C35190028BD75 /* cluster.h */,
+				B667C0E3202C35190028BD75 /* clusttool.h */,
+				B667C0E4202C35190028BD75 /* colfind.h */,
+				B667C0E5202C35190028BD75 /* colpartition.h */,
+				B667C0E6202C35190028BD75 /* colpartitiongrid.h */,
+				B667C0E7202C35190028BD75 /* colpartitionset.h */,
+				B667C0E8202C35190028BD75 /* commandlineflags.h */,
+				B667C0E9202C35190028BD75 /* commontraining.h */,
+				B667C0EA202C35190028BD75 /* con_comp.h */,
+				B667C0EB202C35190028BD75 /* config_auto.h */,
+				B667C0EC202C35190028BD75 /* const.h */,
+				B667C0ED202C35190028BD75 /* control.h */,
+				B667C0EE202C35190028BD75 /* conv_net_classifier.h */,
+				B667C0EF202C35190028BD75 /* coutln.h */,
+				B667C0F0202C35190028BD75 /* crakedge.h */,
+				B667C0F1202C35190028BD75 /* cube_const.h */,
+				B667C0F2202C35190028BD75 /* cube_line_object.h */,
+				B667C0F3202C35190028BD75 /* cube_line_segmenter.h */,
+				B667C0F4202C35190028BD75 /* cube_object.h */,
+				B667C0F5202C35190028BD75 /* cube_reco_context.h */,
+				B667C0F6202C35190028BD75 /* cube_search_object.h */,
+				B667C0F7202C35190028BD75 /* cube_tuning_params.h */,
+				B667C0F8202C35190028BD75 /* cube_utils.h */,
+				B667C0F9202C35190028BD75 /* cubeclassifier.h */,
+				B667C0FA202C35190028BD75 /* cutil.h */,
+				B667C0FB202C35190028BD75 /* cutil_class.h */,
+				B667C0FC202C35190028BD75 /* cutoffs.h */,
+				B667C0FD202C35190028BD75 /* danerror.h */,
+				B667C0FE202C35190028BD75 /* dawg.h */,
+				B667C0FF202C35190028BD75 /* dawg_cache.h */,
+				B667C100202C35190028BD75 /* degradeimage.h */,
+				B667C101202C35190028BD75 /* detlinefit.h */,
+				B667C102202C35190028BD75 /* devanagari_processing.h */,
+				B667C103202C35190028BD75 /* dict.h */,
+				B667C104202C35190028BD75 /* docqual.h */,
+				B667C105202C35190028BD75 /* doubleptr.h */,
+				B667C106202C35190028BD75 /* dppoint.h */,
+				B667C107202C35190028BD75 /* drawedg.h */,
+				B667C108202C35190028BD75 /* drawfx.h */,
+				B667C109202C35190028BD75 /* drawtord.h */,
+				B667C10A202C35190028BD75 /* edgblob.h */,
+				B667C10B202C35190028BD75 /* edgloop.h */,
+				B667C10C202C35190028BD75 /* efio.h */,
+				B667C10D202C35190028BD75 /* elst.h */,
+				B667C10E202C35190028BD75 /* elst2.h */,
+				B667C10F202C35190028BD75 /* emalloc.h */,
+				B667C110202C35190028BD75 /* equationdetect.h */,
+				B667C111202C35190028BD75 /* equationdetectbase.h */,
+				B667C112202C35190028BD75 /* errcode.h */,
+				B667C113202C35190028BD75 /* errorcounter.h */,
+				B667C114202C35190028BD75 /* extern.h */,
+				B667C115202C35190028BD75 /* extract.h */,
+				B667C116202C35190028BD75 /* featdefs.h */,
+				B667C117202C35190028BD75 /* feature_base.h */,
+				B667C118202C35190028BD75 /* feature_bmp.h */,
+				B667C119202C35190028BD75 /* feature_chebyshev.h */,
+				B667C11A202C35190028BD75 /* feature_hybrid.h */,
+				B667C11B202C35190028BD75 /* fileerr.h */,
+				B667C11C202C35190028BD75 /* fileio.h */,
+				B667C11D202C35190028BD75 /* findseam.h */,
+				B667C11E202C35190028BD75 /* fixspace.h */,
+				B667C11F202C35190028BD75 /* flexfx.h */,
+				B667C120202C35190028BD75 /* float2int.h */,
+				B667C121202C35190028BD75 /* fontinfo.h */,
+				B667C122202C35190028BD75 /* fpchop.h */,
+				B667C123202C35190028BD75 /* fpoint.h */,
+				B667C124202C35190028BD75 /* freelist.h */,
+				B667C125202C35190028BD75 /* fxdefs.h */,
+				B667C126202C35190028BD75 /* gap_map.h */,
+				B667C127202C35190028BD75 /* genblob.h */,
+				B667C128202C35190028BD75 /* genericheap.h */,
+				B667C129202C35190028BD75 /* genericvector.h */,
+				B667C12A202C35190028BD75 /* gettimeofday.h */,
+				B667C12B202C35190028BD75 /* globaloc.h */,
+				B667C12C202C35190028BD75 /* globals.h */,
+				B667C12D202C35190028BD75 /* gradechop.h */,
+				B667C12E202C35190028BD75 /* hashfn.h */,
+				B667C12F202C35190028BD75 /* helpers.h */,
+				B667C130202C35190028BD75 /* host.h */,
+				B667C131202C35190028BD75 /* hpdsizes.h */,
+				B667C132202C35190028BD75 /* hybrid_neural_net_classifier.h */,
+				B667C133202C35190028BD75 /* icuerrorcode.h */,
+				B667C134202C35190028BD75 /* imagefind.h */,
+				B667C135202C35190028BD75 /* indexmapbidi.h */,
+				B667C136202C35190028BD75 /* input_file_buffer.h */,
+				B667C137202C35190028BD75 /* intfeaturedist.h */,
+				B667C138202C35190028BD75 /* intfeaturemap.h */,
+				B667C139202C35190028BD75 /* intfeaturespace.h */,
+				B667C13A202C35190028BD75 /* intfx.h */,
+				B667C13B202C35190028BD75 /* intmatcher.h */,
+				B667C13C202C35190028BD75 /* intproto.h */,
+				B667C13D202C35190028BD75 /* ipoints.h */,
+				B667C13E202C35190028BD75 /* kdpair.h */,
+				B667C13F202C35190028BD75 /* kdtree.h */,
+				B667C140202C35190028BD75 /* lang_mod_edge.h */,
+				B667C141202C35190028BD75 /* lang_model.h */,
+				B667C142202C35190028BD75 /* language_model.h */,
+				B667C143202C35190028BD75 /* ligature_table.h */,
+				B667C144202C35190028BD75 /* linefind.h */,
+				B667C145202C35190028BD75 /* linlsq.h */,
+				B667C146202C35190028BD75 /* listio.h */,
+				B667C147202C35190028BD75 /* lm_consistency.h */,
+				B667C148202C35190028BD75 /* lm_pain_points.h */,
+				B667C149202C35190028BD75 /* lm_state.h */,
+				B667C14A202C351A0028BD75 /* lsterr.h */,
+				B667C14B202C351A0028BD75 /* ltrresultiterator.h */,
+				B667C14C202C351A0028BD75 /* makechop.h */,
+				B667C14D202C351A0028BD75 /* makerow.h */,
+				B667C14E202C351A0028BD75 /* mastertrainer.h */,
+				B667C14F202C351A0028BD75 /* matchdefs.h */,
+				B667C150202C351A0028BD75 /* mathfix.h */,
+				B667C151202C351A0028BD75 /* matrix.h */,
+				B667C152202C351A0028BD75 /* measure.h */,
+				B667C153202C351A0028BD75 /* memry.h */,
+				B667C154202C351A0028BD75 /* mergenf.h */,
+				B667C155202C351A0028BD75 /* mf.h */,
+				B667C156202C351A0028BD75 /* mfdefs.h */,
+				B667C157202C351A0028BD75 /* mfoutline.h */,
+				B667C158202C351A0028BD75 /* mfx.h */,
+				B667C159202C351A0028BD75 /* mod128.h */,
+				B667C15A202C351A0028BD75 /* mutableiterator.h */,
+				B667C15B202C351A0028BD75 /* ndminx.h */,
+				B667C15C202C351A0028BD75 /* neural_net.h */,
+				B667C15D202C351A0028BD75 /* neuron.h */,
+				B667C15E202C351A0028BD75 /* normalis.h */,
+				B667C15F202C351A0028BD75 /* normfeat.h */,
+				B667C160202C351A0028BD75 /* normmatch.h */,
+				B667C161202C351A0028BD75 /* normstrngs.h */,
+				B667C162202C351A0028BD75 /* nwmain.h */,
+				B667C163202C351A0028BD75 /* object_cache.h */,
+				B667C164202C351A0028BD75 /* oclkernels.h */,
+				B667C165202C351A0028BD75 /* ocrblock.h */,
+				B667C166202C351A0028BD75 /* ocrclass.h */,
+				B667C167202C351A0028BD75 /* ocrfeatures.h */,
+				B667C168202C351A0028BD75 /* ocrpara.h */,
+				B667C169202C351A0028BD75 /* ocrrow.h */,
+				B667C16A202C351A0028BD75 /* oldbasel.h */,
+				B667C16B202C351A0028BD75 /* oldlist.h */,
+				B667C16C202C351A0028BD75 /* olutil.h */,
+				B667C16D202C351A0028BD75 /* opencl_device_selection.h */,
+				B667C16E202C351A0028BD75 /* openclwrapper.h */,
+				B667C16F202C351A0028BD75 /* osdetect.h */,
+				B667C170202C351A0028BD75 /* otsuthr.h */,
+				B667C171202C351A0028BD75 /* outfeat.h */,
+				B667C172202C351A0028BD75 /* outlines.h */,
+				B667C173202C351A0028BD75 /* output.h */,
+				B667C174202C351A0028BD75 /* pageiterator.h */,
+				B667C175202C351A0028BD75 /* pageres.h */,
+				B667C176202C351A0028BD75 /* pango_font_info.h */,
+				B667C177202C351A0028BD75 /* paragraphs.h */,
+				B667C178202C351A0028BD75 /* paragraphs_internal.h */,
+				B667C179202C351A0028BD75 /* params.h */,
+				B667C17A202C351A0028BD75 /* params_model.h */,
+				B667C17B202C351A0028BD75 /* params_training_featdef.h */,
+				B667C17C202C351A0028BD75 /* paramsd.h */,
+				B667C17D202C351A0028BD75 /* pdblock.h */,
+				B667C17E202C351A0028BD75 /* pgedit.h */,
+				B667C17F202C351A0028BD75 /* picofeat.h */,
+				B667C180202C351A0028BD75 /* pithsync.h */,
+				B667C181202C351A0028BD75 /* pitsync1.h */,
+				B667C182202C351A0028BD75 /* platform.h */,
+				B667C183202C351A0028BD75 /* plotedges.h */,
+				B667C184202C351A0028BD75 /* points.h */,
+				B667C185202C351A0028BD75 /* polyaprx.h */,
+				B667C186202C351A0028BD75 /* polyblk.h */,
+				B667C187202C351A0028BD75 /* protos.h */,
+				B667C188202C351A0028BD75 /* publictypes.h */,
+				B667C189202C351A0028BD75 /* qrsequence.h */,
+				B667C18A202C351A0028BD75 /* quadlsq.h */,
+				B667C18B202C351A0028BD75 /* quadratc.h */,
+				B667C18C202C351A0028BD75 /* quspline.h */,
+				B667C18D202C351A0028BD75 /* ratngs.h */,
+				B667C18E202C351A0028BD75 /* rect.h */,
+				B667C18F202C351A0028BD75 /* rejctmap.h */,
+				B667C190202C351A0028BD75 /* reject.h */,
+				B667C191202C351A0028BD75 /* render.h */,
+				B667C192202C351A0028BD75 /* renderer.h */,
+				B667C193202C351A0028BD75 /* resource.h */,
+				B667C194202C351A0028BD75 /* resultiterator.h */,
+				B667C195202C351A0028BD75 /* sampleiterator.h */,
+				B667C196202C351A0028BD75 /* scanedg.h */,
+				B667C197202C351A0028BD75 /* scanutils.h */,
+				B667C198202C351A0028BD75 /* scrollview.h */,
+				B667C199202C351A0028BD75 /* seam.h */,
+				B667C19A202C351A0028BD75 /* search_column.h */,
+				B667C19B202C351A0028BD75 /* search_node.h */,
+				B667C19C202C351A0028BD75 /* search_object.h */,
+				B667C19D202C351A0028BD75 /* secname.h */,
+				B667C19E202C351A0028BD75 /* serialis.h */,
+				B667C19F202C351A0028BD75 /* shapeclassifier.h */,
+				B667C1A0202C351A0028BD75 /* shapetable.h */,
+				B667C1A1202C351A0028BD75 /* sortflts.h */,
+				B667C1A2202C351A0028BD75 /* sorthelper.h */,
+				B667C1A3202C351A0028BD75 /* split.h */,
+				B667C1A4202C351A0028BD75 /* statistc.h */,
+				B667C1A5202C351A0028BD75 /* stderr.h */,
+				B667C1A6202C351A0028BD75 /* stepblob.h */,
+				B667C1A7202C351A0028BD75 /* stopper.h */,
+				B667C1A8202C351A0028BD75 /* strcasestr.h */,
+				B667C1A9202C351A0028BD75 /* string_32.h */,
+				B667C1AA202C351A0028BD75 /* stringrenderer.h */,
+				B667C1AB202C351A0028BD75 /* strngs.h */,
+				B667C1AC202C351A0028BD75 /* strokewidth.h */,
+				B667C1AD202C351A0028BD75 /* strtok_r.h */,
+				B667C1AE202C351A0028BD75 /* structures.h */,
+				B667C1AF202C351A0028BD75 /* svmnode.h */,
+				B667C1B0202C351A0028BD75 /* svutil.h */,
+				B667C1B1202C351A0028BD75 /* tabfind.h */,
+				B667C1B2202C351A0028BD75 /* tablefind.h */,
+				B667C1B3202C351A0028BD75 /* tablerecog.h */,
+				B667C1B4202C351A0028BD75 /* tabvector.h */,
+				B667C1B5202C351A0028BD75 /* tess_lang_mod_edge.h */,
+				B667C1B6202C351A0028BD75 /* tess_lang_model.h */,
+				B667C1B7202C351A0028BD75 /* tessbox.h */,
+				B667C1B8202C351A0028BD75 /* tesscallback.h */,
+				B667C1B9202C351A0028BD75 /* tessclassifier.h */,
+				B667C1BA202C351A0028BD75 /* tessdatamanager.h */,
+				B667C1BB202C351A0028BD75 /* tessedit.h */,
+				B667C1BC202C351A0028BD75 /* tesseract_cube_combiner.h */,
+				B667C1BD202C351A0028BD75 /* tesseractclass.h */,
+				B667C1BE202C351A0028BD75 /* tessopt.h */,
+				B667C1BF202C351A0028BD75 /* tessvars.h */,
+				B667C1C0202C351A0028BD75 /* textlineprojection.h */,
+				B667C1C1202C351A0028BD75 /* textord.h */,
+				B667C1C2202C351A0028BD75 /* thresholder.h */,
+				B667C1C3202C351A0028BD75 /* tlog.h */,
+				B667C1C4202C351A0028BD75 /* topitch.h */,
+				B667C1C5202C351A0028BD75 /* tordmain.h */,
+				B667C1C6202C351A0028BD75 /* tovars.h */,
+				B667C1C7202C351A0028BD75 /* tprintf.h */,
+				B667C1C8202C351A0028BD75 /* trainingsample.h */,
+				B667C1C9202C351A0028BD75 /* trainingsampleset.h */,
+				B667C1CA202C351A0028BD75 /* trie.h */,
+				B667C1CB202C351A0028BD75 /* tuning_params.h */,
+				B667C1CC202C351A0028BD75 /* underlin.h */,
+				B667C1CD202C351A0028BD75 /* unichar.h */,
+				B667C1CE202C351A0028BD75 /* unicharmap.h */,
+				B667C1CF202C351A0028BD75 /* unicharset.h */,
+				B667C1D0202C351A0028BD75 /* unicity_table.h */,
+				B667C1D1202C351A0028BD75 /* unicodes.h */,
+				B667C1D2202C351A0028BD75 /* universalambigs.h */,
+				B667C1D3202C351A0028BD75 /* util.h */,
+				B667C1D4202C351A0028BD75 /* vecfuncs.h */,
+				B667C1D5202C351A0028BD75 /* version.h */,
+				B667C1D6202C351A0028BD75 /* werd.h */,
+				B667C1D7202C351A0028BD75 /* werdit.h */,
+				B667C1D8202C351A0028BD75 /* word_altlist.h */,
+				B667C1D9202C351A0028BD75 /* word_list_lang_model.h */,
+				B667C1DA202C351A0028BD75 /* word_size_model.h */,
+				B667C1DB202C351A0028BD75 /* word_unigrams.h */,
+				B667C1DC202C351A0028BD75 /* wordrec.h */,
+				B667C1DD202C351A0028BD75 /* wordseg.h */,
+				B667C1DE202C351A0028BD75 /* workingpartset.h */,
+				B667C1DF202C351A0028BD75 /* xform2d.h */,
+			);
+			path = tesseract;
+			sourceTree = "<group>";
+		};
+		B686A5CC2180A88500D423B6 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				B686A61B2181ACF000D423B6 /* onepiece_kiudai.png */,
+				B686A6142181ACEF00D423B6 /* STController */,
+				B686A61C2181ACF000D423B6 /* STRefresh */,
+				B686A6232181ACF100D423B6 /* STTransition */,
+				B686A6262181ACF100D423B6 /* STView */,
+				B6AA5F25218849790098D922 /* newsDetailViewController.h */,
+				B6AA5F26218849790098D922 /* newsDetailViewController.m */,
+			);
+			path = table;
+			sourceTree = "<group>";
+		};
+		B686A6142181ACEF00D423B6 /* STController */ = {
+			isa = PBXGroup;
+			children = (
+				B686A6152181ACEF00D423B6 /* STImageController.h */,
+				B686A6162181ACEF00D423B6 /* STImageController.m */,
+				B686A6172181ACEF00D423B6 /* STListController.h */,
+				B686A6182181ACEF00D423B6 /* STListController.m */,
+				B686A6192181ACEF00D423B6 /* STViewController.h */,
+				B686A61A2181ACEF00D423B6 /* STViewController.m */,
+			);
+			path = STController;
+			sourceTree = "<group>";
+		};
+		B686A61C2181ACF000D423B6 /* STRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				B686A61D2181ACF000D423B6 /* github.png */,
+				B686A61E2181ACF000D423B6 /* STRefresh.h */,
+				B686A61F2181ACF000D423B6 /* STRefreshHeader.h */,
+				B686A6202181ACF000D423B6 /* STRefreshHeader.m */,
+				B686A6212181ACF000D423B6 /* UIScrollView+STRefresh.h */,
+				B686A6222181ACF000D423B6 /* UIScrollView+STRefresh.m */,
+			);
+			path = STRefresh;
+			sourceTree = "<group>";
+		};
+		B686A6232181ACF100D423B6 /* STTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B686A6242181ACF100D423B6 /* STTransitions.h */,
+				B686A6252181ACF100D423B6 /* STTransitions.m */,
+			);
+			path = STTransition;
+			sourceTree = "<group>";
+		};
+		B686A6262181ACF100D423B6 /* STView */ = {
+			isa = PBXGroup;
+			children = (
+				B686A6272181ACF100D423B6 /* CustomCollectionView.h */,
+				B686A6282181ACF100D423B6 /* CustomCollectionView.m */,
+				B686A6292181ACF100D423B6 /* CustomSegmentControl.h */,
+				B686A62A2181ACF100D423B6 /* CustomSegmentControl.m */,
+				B686A62B2181ACF100D423B6 /* CustomTableView.h */,
+				B686A62C2181ACF100D423B6 /* CustomTableView.m */,
+			);
+			path = STView;
+			sourceTree = "<group>";
+		};
+		B688B4F1202C3C4A0093E90B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B688B4F2202C3C4A0093E90B /* liblept.a */,
+				B688B4F3202C3C4A0093E90B /* libtesseract_all.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B688B4F6202C41DC0093E90B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B61AE15A20883EB10070337A /* IOS images@3x */,
+				B61AE0DF20883EA80070337A /* IOS images @2x */,
+				B688B4F7202C42130093E90B /* letter.jpg */,
+				B642596D207CC0E6000163F1 /* coin.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		E517D3143F96AF7B69278D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B64259822084A660000163F1 /* libsqlite3.tbd */,
+				B64259802084A645000163F1 /* libsqlite3.0.tbd */,
+				B66A377B207B5514000C7E04 /* IdcardQuality.framework */,
+				B66A3774207B5414000C7E04 /* AipBase.framework */,
+				B66A3775207B5415000C7E04 /* AipOcrSdk.framework */,
+				EB6B9C222357E9829545ABA1 /* libPods-OCRRecognition1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +1562,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6485A0F202C17F70093E0E2 /* Build configuration list for PBXNativeTarget "OCRRecognition1" */;
 			buildPhases = (
+				8B1B05F6788299ADD17F8F21 /* [CP] Check Pods Manifest.lock */,
 				B64859DF202C17F70093E0E2 /* Sources */,
 				B64859E0202C17F70093E0E2 /* Frameworks */,
 				B64859E1202C17F70093E0E2 /* Resources */,
+				BE85741D9AB3C6F0BEE75BAE /* [CP] Embed Pods Frameworks */,
+				00ECAE325F28DBDFE97B1D6B /* [CP] Copy Pods Resources */,
+				B66A377A207B5415000C7E04 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,9 +1665,140 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A720CA218F037B00484586 /* 3.json in Resources */,
+				B6A720CB218F037B00484586 /* 2.json in Resources */,
+				B6A720C6218F009E00484586 /* 1.json in Resources */,
+				B61AE12120883EA80070337A /* 个人中心选中@2x.png in Resources */,
+				B61AE1CD20883EB10070337A /* 选中@3x.png in Resources */,
+				B61AE12020883EA80070337A /* 个人中心@2x.png in Resources */,
+				B61AE14F20883EA80070337A /* 设置@2x.png in Resources */,
+				B61AE1C920883EB10070337A /* 药店@3x.png in Resources */,
+				B61AE1BA20883EB10070337A /* 未选择@3x.png in Resources */,
+				B61AE1AC20883EB10070337A /* 我的医生@3x.png in Resources */,
+				B61AE13920883EA80070337A /* 明星认证@2x.png in Resources */,
+				B61AE1A820883EB10070337A /* 微信支付@3x.png in Resources */,
+				B61AE1B920883EB10070337A /* 未选中@3x.png in Resources */,
+				B61AE14A20883EA80070337A /* 相机@2x.png in Resources */,
+				B61AE1CE20883EB10070337A /* 选择@3x.png in Resources */,
+				B61AE1BF20883EB10070337A /* 添加好友微信@3x.png in Resources */,
+				B61AE1AB20883EB10070337A /* 意见反馈@3x.png in Resources */,
+				B61AE13320883EA80070337A /* 我的账户@2x.png in Resources */,
+				B61AE1B820883EB10070337A /* 星医生选中@3x.png in Resources */,
+				B61AE1B120883EB10070337A /* 搜索灰色@3x.png in Resources */,
+				B61AE14120883EA80070337A /* 活动进行中@2x.png in Resources */,
+				B61AE1A620883EB10070337A /* 定位@3x.png in Resources */,
+				B688B4F8202C42130093E90B /* letter.jpg in Resources */,
+				B61AE1CF20883EB10070337A /* 邀请好友@3x.png in Resources */,
+				B61AE1B020883EB10070337A /* 搜索@3x.png in Resources */,
+				B61AE1A220883EB10070337A /* 发现@3x.png in Resources */,
+				B61AE1D020883EB10070337A /* 银行卡支付@3x.png in Resources */,
+				B61AE13820883EA80070337A /* 放大缩小@2x.png in Resources */,
+				B61AE13520883EA80070337A /* 搜索@2x.png in Resources */,
+				B61AE15420883EA80070337A /* 邀请好友@2x.png in Resources */,
+				B61AE12520883EA80070337A /* 区域代表图标@2x.png in Resources */,
+				B667C1E3202C351A0028BD75 /* build_dependencies.sh in Resources */,
+				B61AE12920883EA80070337A /* 在线咨询@2x.png in Resources */,
+				B61AE12C20883EA80070337A /* 定位按钮@2x.png in Resources */,
+				B61AE1AF20883EB10070337A /* 报告单@3x.png in Resources */,
+				B61AE14D20883EA80070337A /* 红包@2x.png in Resources */,
 				B64859F3202C17F70093E0E2 /* LaunchScreen.storyboard in Resources */,
-				B64859F0202C17F70093E0E2 /* Assets.xcassets in Resources */,
+				B61AE19C20883EB10070337A /* 个人中心选中@3x.png in Resources */,
+				B61AE15620883EA80070337A /* 门诊预约@2x.png in Resources */,
+				B61AE14920883EA80070337A /* 病历单设置@2x.png in Resources */,
+				B61AE1D220883EB10070337A /* 门诊预约大图@3x.png in Resources */,
+				B61AE11D20883EA80070337A /* QQ未选中@2x.png in Resources */,
+				B61AE15520883EA80070337A /* 银行卡支付@2x.png in Resources */,
+				B61AE19F20883EB10070337A /* 关注@3x.png in Resources */,
+				B61AE19B20883EB10070337A /* 个人中心@3x.png in Resources */,
+				B61AE1B520883EB10070337A /* 星专家@3x.png in Resources */,
+				B61AE13B20883EA80070337A /* 星专家选中@2x.png in Resources */,
+				B61AE1C220883EB10070337A /* 电话咨询大图@3x.png in Resources */,
+				B61AE1BC20883EB10070337A /* 活动进行中@3x.png in Resources */,
+				B61AE1A420883EB10070337A /* 在线咨询@3x.png in Resources */,
+				B61AE13A20883EA80070337A /* 星专家@2x.png in Resources */,
+				B61AE14820883EA80070337A /* 病例单@2x.png in Resources */,
+				B61AE14420883EA80070337A /* 添加好友微信@2x.png in Resources */,
+				B61AE15920883EA80070337A /* 首页选中@2x.png in Resources */,
+				B61AE12F20883EA80070337A /* 微信点击@2x.png in Resources */,
+				B61AE11F20883EA80070337A /* 上门咨询@2x.png in Resources */,
+				B61AE1C020883EB10070337A /* 添加好友朋友圈@3x.png in Resources */,
+				B61AE14220883EA80070337A /* 添加好友@2x.png in Resources */,
+				B61AE1C620883EB10070337A /* 私人医生@3x.png in Resources */,
+				B61AE12B20883EA80070337A /* 定位@2x.png in Resources */,
+				B61AE13020883EA80070337A /* 意见反馈@2x.png in Resources */,
+				B61AE15220883EA80070337A /* 选中@2x.png in Resources */,
+				B61AE1A120883EB10070337A /* 医院图标@3x.png in Resources */,
+				B61AE1C820883EB10070337A /* 红包@3x.png in Resources */,
+				B61AE1BB20883EB10070337A /* 活动已结束@3x.png in Resources */,
+				B686A6302181ACF100D423B6 /* onepiece_kiudai.png in Resources */,
+				B61AE1CC20883EB10070337A /* 进入提示@3x.png in Resources */,
+				B61AE1B620883EB10070337A /* 星专家选中@3x.png in Resources */,
+				B61AE12220883EA80070337A /* 个人信息@2x.png in Resources */,
+				B61AE19820883EB10070337A /* QQ未选中@3x.png in Resources */,
+				B61AE12E20883EA80070337A /* 微信未选中@2x.png in Resources */,
+				B61AE13720883EA80070337A /* 支付宝@2x.png in Resources */,
+				B61AE1D120883EB10070337A /* 门诊预约@3x.png in Resources */,
+				B61AE12820883EA80070337A /* 发现选中@2x.png in Resources */,
+				B61AE15020883EA80070337A /* 返回按钮@2x.png in Resources */,
+				B61AE1C320883EB10070337A /* 病例单@3x.png in Resources */,
+				B61AE19E20883EB10070337A /* 健康档案@3x.png in Resources */,
+				B61AE13D20883EA80070337A /* 星医生选中@2x.png in Resources */,
+				B61AE14B20883EA80070337A /* 私人医生@2x.png in Resources */,
+				B61AE1AE20883EB10070337A /* 我的账户@3x.png in Resources */,
+				B61AE13420883EA80070337A /* 报告单@2x.png in Resources */,
+				B61AE1A320883EB10070337A /* 发现选中@3x.png in Resources */,
+				B61AE1CA20883EB10070337A /* 设置@3x.png in Resources */,
+				B61AE14E20883EA80070337A /* 药店@2x.png in Resources */,
+				B6F90D8020BE85BC00B370DF /* Images.xcassets in Resources */,
+				B61AE1C120883EB10070337A /* 灰电话咨询@3x.png in Resources */,
+				B61AE1A520883EB10070337A /* 妇产科@3x.png in Resources */,
 				B64859EE202C17F70093E0E2 /* Main.storyboard in Resources */,
+				B61AE13F20883EA80070337A /* 未选择@2x.png in Resources */,
+				B61AE12A20883EA80070337A /* 妇产科@2x.png in Resources */,
+				B61AE13120883EA80070337A /* 我的医生@2x.png in Resources */,
+				B61AE19D20883EB10070337A /* 个人信息@3x.png in Resources */,
+				B61AE12720883EA80070337A /* 发现@2x.png in Resources */,
+				B61AE14C20883EA80070337A /* 私人医生大图@2x.png in Resources */,
+				B61AE1B720883EB10070337A /* 星医生@3x.png in Resources */,
+				B61AE1AD20883EB10070337A /* 我的积分@3x.png in Resources */,
+				B61AE14020883EA80070337A /* 活动已结束@2x.png in Resources */,
+				B61AE1A020883EB10070337A /* 区域代表图标@3x.png in Resources */,
+				B61AE1BD20883EB10070337A /* 添加好友@3x.png in Resources */,
+				B61AE1C420883EB10070337A /* 病历单设置@3x.png in Resources */,
+				B61AE1B320883EB10070337A /* 放大缩小@3x.png in Resources */,
+				B61AE1CB20883EB10070337A /* 返回按钮@3x.png in Resources */,
+				B688B51F202C4CB10093E90B /* tessdata in Resources */,
+				B61AE14320883EA80070337A /* 添加好友QQ@2x.png in Resources */,
+				B61AE1A920883EB10070337A /* 微信未选中@3x.png in Resources */,
+				B61AE1BE20883EB10070337A /* 添加好友QQ@3x.png in Resources */,
+				B61AE13620883EA80070337A /* 搜索灰色@2x.png in Resources */,
+				B61AE1C520883EB10070337A /* 相机@3x.png in Resources */,
+				B61AE1C720883EB10070337A /* 私人医生大图@3x.png in Resources */,
+				B61AE1D420883EB10070337A /* 首页选中@3x.png in Resources */,
+				B61AE13E20883EA80070337A /* 未选中@2x.png in Resources */,
+				B642596E207CC0E6000163F1 /* coin.jpg in Resources */,
+				B61AE15820883EA80070337A /* 首页@2x.png in Resources */,
+				B61AE13C20883EA80070337A /* 星医生@2x.png in Resources */,
+				B61AE12620883EA80070337A /* 医院图标@2x.png in Resources */,
+				B61AE1AA20883EB10070337A /* 微信点击@3x.png in Resources */,
+				B61AE15720883EA80070337A /* 门诊预约大图@2x.png in Resources */,
+				B61AE13220883EA80070337A /* 我的积分@2x.png in Resources */,
+				B61AE12420883EA80070337A /* 关注@2x.png in Resources */,
+				B61AE1D320883EB10070337A /* 首页@3x.png in Resources */,
+				B61AE14520883EA80070337A /* 添加好友朋友圈@2x.png in Resources */,
+				B61AE1B220883EB10070337A /* 支付宝@3x.png in Resources */,
+				B686A6312181ACF100D423B6 /* github.png in Resources */,
+				B61AE1B420883EB10070337A /* 明星认证@3x.png in Resources */,
+				B61AE14720883EA80070337A /* 电话咨询大图@2x.png in Resources */,
+				B61AE19920883EB10070337A /* QQ点击@3x.png in Resources */,
+				B61AE15320883EA80070337A /* 选择@2x.png in Resources */,
+				B61AE19A20883EB10070337A /* 上门咨询@3x.png in Resources */,
+				B61AE11E20883EA80070337A /* QQ点击@2x.png in Resources */,
+				B61AE12D20883EA80070337A /* 微信支付@2x.png in Resources */,
+				B61AE12320883EA80070337A /* 健康档案@2x.png in Resources */,
+				B61AE15120883EA80070337A /* 进入提示@2x.png in Resources */,
+				B61AE14620883EA80070337A /* 灰电话咨询@2x.png in Resources */,
+				B61AE1A720883EB10070337A /* 定位按钮@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +1818,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00ECAE325F28DBDFE97B1D6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRRecognition1/Pods-OCRRecognition1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1B05F6788299ADD17F8F21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE85741D9AB3C6F0BEE75BAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRRecognition1/Pods-OCRRecognition1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B64859DF202C17F70093E0E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6AA5F27218849790098D922 /* newsDetailViewController.m in Sources */,
+				B61AE0D520879AA20070337A /* KBTabbarController.m in Sources */,
+				B64323FF218B2B14003E76B0 /* userAgreementViewController.m in Sources */,
+				B686A62F2181ACF100D423B6 /* STViewController.m in Sources */,
+				B61AE0D420879AA20070337A /* KBTabbar.m in Sources */,
+				B667C08D202C34AA0028BD75 /* G8RecognitionOperation.m in Sources */,
+				B686A6322181ACF100D423B6 /* STRefreshHeader.m in Sources */,
+				B667C08F202C34AA0028BD75 /* G8Tesseract.mm in Sources */,
+				B667C091202C34AA0028BD75 /* UIImage+G8Filters.m in Sources */,
 				B64859EB202C17F70093E0E2 /* ViewController.m in Sources */,
+				B642597F20849F48000163F1 /* historyTableViewController.m in Sources */,
+				B642597A207CD922000163F1 /* NSDictionary+Log.m in Sources */,
+				B642597B207CD922000163F1 /* NSArray+Log.m in Sources */,
+				B686A6362181ACF100D423B6 /* CustomSegmentControl.m in Sources */,
+				B686A6332181ACF100D423B6 /* UIScrollView+STRefresh.m in Sources */,
 				B64859F6202C17F70093E0E2 /* main.m in Sources */,
+				B686A6342181ACF100D423B6 /* STTransitions.m in Sources */,
+				B61AE0CD2085E4A40070337A /* detailViewController.m in Sources */,
+				B64323FD218B2B14003E76B0 /* ForgetViewController.m in Sources */,
+				B642597C207CD922000163F1 /* NSString+unicode.m in Sources */,
+				B686A6352181ACF100D423B6 /* CustomCollectionView.m in Sources */,
+				B61AE1DB2088436D0070337A /* InstalledTableViewController.m in Sources */,
+				B667C08E202C34AA0028BD75 /* G8RecognizedBlock.m in Sources */,
+				B667C090202C34AA0028BD75 /* G8TesseractParameters.m in Sources */,
 				B64859E8202C17F70093E0E2 /* AppDelegate.m in Sources */,
+				B61AE1D82088430C0070337A /* SuggestionViewController.m in Sources */,
+				B64323FE218B2B14003E76B0 /* RegisterViewController.m in Sources */,
+				B686A6372181ACF100D423B6 /* CustomTableView.m in Sources */,
+				B686A62E2181ACF100D423B6 /* STListController.m in Sources */,
+				B6432400218B2B14003E76B0 /* WelcomeViewController.m in Sources */,
+				B686A62D2181ACF100D423B6 /* STImageController.m in Sources */,
+				B61AE0DE2087B5F80070337A /* settingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,27 +2063,58 @@
 		};
 		B6485A10202C17F70093E0E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0DDC29E85E1A380C000358 /* Pods-OCRRecognition1.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVHP57L35D;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OCRRecognition1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = w.OCRRecognition1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCRRecognition1/core/lib",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = news.clent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		B6485A11202C17F70093E0E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A946A9A37604A3DBE0A9E8 /* Pods-OCRRecognition1.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVHP57L35D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OCRRecognition1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = w.OCRRecognition1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCRRecognition1/core/lib",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = news.clent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

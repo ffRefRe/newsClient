@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSDictionary+Log.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
 
 
 @end
